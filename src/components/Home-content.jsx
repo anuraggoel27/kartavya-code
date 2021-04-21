@@ -91,9 +91,10 @@ function Content() {
           </Form>
         </div>
       </div>
-      <div className="about-us">
-        <h1 className="about-heading">About Us</h1>
-        <p className="about-content">
+      <div className="welcome">
+        <h3 className="welcome-subheading">Welcome to</h3>
+        <h1 className="welcome-heading">Kartavya Academy</h1>
+        <p className="welcome-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi quis
           commodo odio aenean sed adipiscing diam. Ut tortor pretium viverra
@@ -110,9 +111,7 @@ function Content() {
           Egestas dui id ornare arcu odio ut sem nulla pharetra. Netus et
           malesuada fames ac turpis egestas sed tempus. Quis blandit turpis
           cursus in hac habitasse. Et tortor consequat id porta nibh venenatis
-          cras. Iaculis urna id volutpat lacus laoreet. Lacus sed viverra tellus
-          in hac habitasse. Tincidunt augue interdum velit euismod in
-          pellentesque. Pharetra et ultrices neque ornare aenean euismod.
+          cras. Pharetra et ultrices neque ornare aenean euismod.
         </p>
         <div className="flaticons">
           <div className="flaticon-card">
@@ -217,7 +216,7 @@ function Content() {
           <a href="https://play.google.com/store/apps/details?id=co.classplus.kacd">
             {/* <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjA2OSA1MTIuMDY5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIuMDY5IDUxMi4wNjk7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGRkMxMDc7IiBkPSJNNDQ4LjA2OSwxOTIuMDM3Yy0xMS4wOTMsMC0yMS4zMzMtMy41NjMtMjEuMzMzLTI5LjMzM3YtMjQNCglDNDI0LjA0Niw2MC45NCwzNTkuOTI1LTAuNTQxLDI4Mi4xMTcsMC4wMzdIMTMyLjc4NEM1OC41NjIsMC45My0wLjg4Miw2MS44MjMsMC4wMTEsMTM2LjA0NGMwLjAxMSwwLjg4NywwLjAzLDEuNzczLDAuMDU4LDIuNjU5DQoJVjM3My4zN2MtMi4zNjIsNzQuMTg5LDU1Ljg2NiwxMzYuMjQ3LDEzMC4wNTYsMTM4LjYwOGMwLjg4NiwwLjAyOCwxLjc3MywwLjA0OCwyLjY1OSwwLjA1OEgzNTUuNDQNCgljODkuMzAxLDAsMTU2LjYyOS02Mi40ODUsMTU2LjYyOS0xNDUuMzIzVjI1Ni4wMzdDNTEyLjA2OSwyMDguMTg2LDQ5NS45MiwxOTIuMDM3LDQ0OC4wNjksMTkyLjAzN3ogTTE2MC4wNjksMTI4LjAzN2gxMDYuNjY3DQoJYzE3LjY3MywwLDMyLDE0LjMyNywzMiwzMnMtMTQuMzI3LDMyLTMyLDMySDE2MC4wNjljLTE3LjY3MywwLTMyLTE0LjMyNy0zMi0zMlMxNDIuMzk2LDEyOC4wMzcsMTYwLjA2OSwxMjguMDM3eiBNMzUyLjA2OSwzODQuMDM3DQoJaC0xOTJjLTE3LjY3MywwLTMyLTE0LjMyNy0zMi0zMnMxNC4zMjctMzIsMzItMzJoMTkyYzE3LjY3MywwLDMyLDE0LjMyNywzMiwzMlMzNjkuNzQyLDM4NC4wMzcsMzUyLjA2OSwzODQuMDM3eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" /> */}
             <Fab variant="extended" className="download-button">
-              <ShopIcon className="button-icon" />
+              <img src="/images/blog.png" className="button-icon" />
               Blog
             </Fab>
             {/* <Button size="large" className="download-button" variant="outlined">
@@ -230,8 +229,8 @@ function Content() {
             To know more about us and about our institute, download the app.
           </h2>
           <a href="https://play.google.com/store/apps/details?id=co.classplus.kacd">
-            <Fab variant="extended" color="inherit">
-              <ShopIcon className="button-icon" />
+            <Fab variant="extended" color="inherit" >
+              <img src="/images/playstore.png" className="button-icon"></img>
               Play Store
             </Fab>
             {/* <Button

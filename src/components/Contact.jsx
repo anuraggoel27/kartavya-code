@@ -4,14 +4,16 @@ import Particle from "./Particle";
 function ContactContent() {
   return (
     <div className="contact-content">
-      <Particle
+      {/* <Particle
         shapeColor="#000000"
         lineColor="#000000"
         strokeColor="#000000"
-      />
+      /> */}
       <h1 className="contact-heading">Contact Us</h1>
+      <p className="contact-about">If you have any queries, complaints or suggestions, make sure to contact us.</p>
+      <img className="contact-image" src="/images/contact.png"></img>
       <Row className="contact-row">
-        <Col>
+        <Col className="contact-column">
           <Row>
             <h3 className="contact-type">Mobile</h3>
           </Row>
@@ -28,7 +30,7 @@ function ContactContent() {
             <h5 className="contact-detail">Anuj Goel: 194119419</h5>
           </Row>
         </Col>
-        <Col>
+        <Col className="contact-column">
           <Row>
             <h3 className="contact-type">Email</h3>
           </Row>
@@ -42,7 +44,7 @@ function ContactContent() {
             <h5 className="contact-detail">Anuj Goel: anuj@gmail.com</h5>
           </Row>
         </Col>
-        <Col>
+        <Col className="contact-column">
           <Row>
             <h3 className="contact-type">Address</h3>
           </Row>

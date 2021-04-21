@@ -63,7 +63,7 @@ function CourseContent() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <img src="/images/competitive.png" className="card-image"></img>
+          <img src="/images/hospital.png" className="card-image"></img>
         </div>
       </div>
     </div>

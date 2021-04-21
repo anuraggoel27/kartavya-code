@@ -92,16 +92,19 @@ a:hover {
   
 }
 
-.about-us{
+.welcome{
   padding:5rem 9rem;
   color:white;
-  /* text-align:left; */
+  text-align:left;
 }
-.about-heading{
+.welcome-subheading{
+  color:#8c8c8c;
+}
+.welcome-heading{
   font-size:4.5rem;
   margin-bottom:2rem;
 }
-.about-content{
+.welcome-content{
   color:#8c8c8c;
 }
 .flaticons{
@@ -201,7 +204,7 @@ a:hover {
     margin-right:6rem;
     position:absolute;
     top:2.4rem;
-    left:40%;
+    left:39.5%;
     font-family: "Vollkorn", serif;
   }
   
@@ -239,13 +242,17 @@ a {
   margin: 50px 50px 150px 0;
 }
 /*ICONS AT THE BOTTOM*/
-.iconLinks {
+.icon-links {
   margin: auto 0rem auto 10rem;
   display: inline-block;
   text-align: right;
   width: 300px;
   position: relative;
   top: 5rem;
+}
+ .icons:hover{
+ color:white;
+
 }
 .icons {
   margin: 15px 35px 15px 0;
@@ -257,12 +264,11 @@ a {
 
 /* CONTACT PAGE*/
 .contact-content {
-  margin-top: 7.5rem;
-  height: 40rem;
+  margin-top: 5rem;
   color: black;
   text-align: left;
-  padding: 7.5rem 9rem 7.5rem;
-  background-color: #8c8c8c;
+  padding:5rem 9rem 7.5rem;
+  /* background-color: #8c8c8c; */
   /* background-image: url("https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -271,15 +277,36 @@ a {
   margin: 3.5rem 0 0 0;
 }
 .contact-heading {
-  color: #000;
+  color:black;
+  margin-bottom:5rem;
   font-size:4.5rem;
+  text-align:center;
+}
+.contact-about{
+  display:inline-block;
+  width:40%;
+  font-size:25px;
+  margin-right:35%;
+}
+.contact-image{
+  width:15%;
+  margin-left:5rem;
+  position :relative;
+  bottom:1rem;
+  display: inline-block;
+}
+.contact-column{
+  background-color:black;
+  padding: 2rem 3rem;
+  border-radius:1rem;
+  margin:2rem 3rem 2rem 0;
 }
 .contact-type {
-  color: #3c3b3b;
+  color:white;
   margin-bottom: 1.5rem;
 }
 .contact-detail {
-  color: #474545;
+  color: #8c8c8c;
   margin-bottom: 0.75rem;
 }
 
@@ -313,24 +340,24 @@ a {
 
 
 
-.course-body{
+.course-body,.about-body{
   padding: 10.5rem 10% 7.5rem ; 
   width:100%;
   text-align: left;
   /* background-color:#8c8c8c; */
 }
-.course-heading{
+.course-heading,.about-heading{
   margin-bottom:5rem;
   font-size:4.5rem;
   text-align:center;
 }
-.course-paragraph{
+.course-paragraph,.about-paragraph{
   display: inline-block;
   width:60%;
   margin-right:10rem;
   margin-left:1rem;
 }
-.main-image{
+.main-image,.course-main-image{
   width:15%;
   margin-left:5rem;
   position :relative;
@@ -369,3 +396,6 @@ a {
   left:5rem;
   bottom:3rem;
 }
+
+
+

@@ -20,8 +20,16 @@ function Footer() {
                 Achievements
               </a>
             </Row>
-            <Row className="row-links">About us</Row>
-            <Row className="row-links">Fee Structure and payment </Row>
+            <Row className="row-links">
+              <a href="/about" target="_blank">
+                About us
+              </a>
+            </Row>
+            <Row className="row-links">
+              <a href="/courses" target="_blank">
+                Courses
+              </a>{" "}
+            </Row>
             <Row className="row-links">
               <a href="/contact" target="_blank">
                 Contact Us
@@ -29,11 +37,11 @@ function Footer() {
             </Row>
           </Col>
           <Col>
-            <div className="iconLinks">
-              <FacebookIcon className="icons" />
+            <div className="icon-links">
+              <a href="https://www.facebook.com/kartavyacademy" target="_blank"><FacebookIcon className="icons" /></a>
               <InstagramIcon className="icons" />
               <MailIcon className="icons" />
-            
+
               <h6 className="copyright">&#169; KARTAVYA ACADEMY LTD.</h6>
             </div>
           </Col>
