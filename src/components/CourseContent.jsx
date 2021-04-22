@@ -15,7 +15,7 @@ function CourseContent() {
         </p>
         <img
           className="main-image"
-          src="https://www.flaticon.com/svg/vstatic/svg/3214/3214781.svg?token=exp=1618747843~hmac=87f5cd81f41baebadc47798694a36a2e"
+          src="/images/videoconference.png"
         ></img>
       </div>
       <div className="course-cards">

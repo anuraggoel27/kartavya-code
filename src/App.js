@@ -1,4 +1,5 @@
 import "./styles.css";
+import React,{useEffect} from 'react';
 import Home from "./Home";
 import Contact from "./Contact";
 import Achievement from "./Achievement";
@@ -11,6 +12,7 @@ import "aos/dist/aos.css";
 
 AOS.init();
 export default function App() {
+  
   return (
     <div className="App">
       <Route exact path="/" component={Home} />

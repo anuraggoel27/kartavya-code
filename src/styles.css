@@ -13,26 +13,6 @@ a:hover {
   font-family: "B612", sans-serif;
   background-color: black;
 }
-/* 
-/* NAVBAR
-.navigation-bar {
-  background-color: white;
-  height: 7.5rem;
-  padding: 0 8rem;
-}
-.brandName {
-  font-family: "Vollkorn", serif;
-  font-weight: bold;
-}
-.navbar-top {
-  background-color: white;
-}
-.navLink {
-  margin: auto 20px;
-}
-.nav-link {
-  text-decoration: none;
-   */
 
 /*FACULTY CARDS*/
 .Faculty {
@@ -43,171 +23,143 @@ a:hover {
 .faculty-card {
   display: inline-block;
   margin: 2.5rem 5rem;
-  
 }
-/* .card-desc{
-  text-align:left;
-} */
-.faculty-heading{
-  font-size:4.5rem;
-  /* text-align:left; */
-  /* padding-left:10.5%; */
+
+.faculty-heading {
+  font-size: 4.5rem;
 }
 
 /*CAROUSEL*/
 .Carousel {
   width: 45%;
-  margin:5rem 2rem 10rem 0;
+  margin: 5rem 2rem 10rem 0;
   display: inline-block;
   background-color: white;
-  border-radius:10px;
-  /* text-align:left; */
-  /* position:relative; */
-  /* right:15%; */
+  border-radius: 10px;
 }
 
 .carousel-image {
-  height: 27.5rem; 
-  border-radius:10px;
+  height: 27.5rem;
+  border-radius: 10px;
 }
 .top {
-  margin-top: 7rem;
+  margin-top: 7.5rem;
   margin-bottom: 0px;
-  background-color:white;
-
-  
+  background-color: white;
 }
 
-.query-form{
-  width:30%;
-  height: 27.5rem; 
-  padding:4rem 2.75rem;
+.query-form {
+  width: 30%;
+  padding: 4rem 2.75rem;
   display: inline-block;
-  text-align:left;
-  background-color:white;
-  position:relative;
-  bottom:3.2rem;
-  margin-left:2rem;
-  border-radius:10px;
-  
+  text-align: left;
+  position: relative;
+  bottom: 3.2rem;
+  margin-left: 2rem;
+  border-radius: 10px;
 }
 
-.welcome{
-  padding:5rem 9rem;
-  color:white;
-  text-align:left;
+.welcome {
+  padding: 5rem 9rem;
+  color: white;
+  text-align: left;
 }
-.welcome-subheading{
-  color:#8c8c8c;
+.welcome-subheading {
+  color: #8c8c8c;
 }
-.welcome-heading{
-  font-size:4.5rem;
-  margin-bottom:2rem;
+.welcome-heading {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
 }
-.welcome-content{
-  color:#8c8c8c;
+.welcome-content {
+  color: #8c8c8c;
 }
-.flaticons{
-  margin-top:2rem;
+.flaticons {
+  margin-top: 2rem;
 }
-.flaticon-card{
-  text-align:center;
-  display:inline-block;
-  height:10rem;
-  width:16.5rem;
-  margin:0 1rem;
-  background-color:black;
-  padding:2rem 0 3rem;
-  border-radius:5rem;
-  
-}
-/* .flaticon-card:hover{
-  background-color:rgb(187, 186, 186);
-  transition:650ms;
-} */
-.flaticon-image  img{
-  height:100px;
-  width:100px;
-  margin-bottom:2rem;
-}
-.flaticon-about{
-  margin-top:1rem;
-  color:#8c8c8c;
+.flaticon-card {
+  text-align: center;
+  display: inline-block;
+  height: 10rem;
+  width: 16.5rem;
+  margin: 0 1rem;
+  background-color: black;
+  padding: 2rem 0 3rem;
+  border-radius: 5rem;
 }
 
-
-
-.blog,.download{
-  background-color:white;
-  padding:3.5rem 2%;
-  width:40%;
-  border-radius:1rem;
-  margin:12rem 2rem 12rem;
-  color:black;
-  display:inline-block;
+.flaticon-image img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 2rem;
 }
-.blog button,.download button{
-  padding-right:2rem;
-  margin-top:3rem;
-  color:white;
-  background-color:black;
-}
-/* .download button {
-  padding-right:2rem;
-  margin-top:3rem;
-
-} */
-.button-icon{
-  margin-right:1rem;
-}
-.blog button:hover,.download button:hover{
-  background-color:rgb(209, 209, 209);
-  transition:500ms;
-  color:black;
+.flaticon-about {
+  margin-top: 1rem;
+  color: #8c8c8c;
 }
 
+.blog,
+.download {
+  background-color: white;
+  padding: 3.5rem 2%;
+  width: 40%;
+  border-radius: 1rem;
+  margin: 12rem 2rem 12rem;
+  color: black;
+  display: inline-block;
+}
+.blog button,
+.download button {
+  padding-right: 2rem;
+  margin-top: 3rem;
+  color: white;
+  background-color: black;
+}
 
+.button-icon {
+  margin-right: 1rem;
+}
+.blog button:hover,
+.download button:hover {
+  background-color: rgb(209, 209, 209);
+  transition: 500ms;
+  color: black;
+}
 
-@media only screen and (min-width: 992px) {
-  /* DESKTOP */
-  .header{
-    position: fixed;
-    z-index:16;
-    top: 0;
-    height:7.5rem;
-    width:100%;
-    color:#000;
-    padding-top:2.5rem;
-    
-    background-color:white;
-  }
-  
-  .header-link1{
-   position:absolute;
-   top: 3rem;
-   right:17.5rem;
+.header {
+  position: fixed;
+  z-index: 16;
+  top: 0;
+  height: 7.5rem;
+  width: 100%;
+  color: #000;
+  padding-top: 2.5rem;
 
-  }
-  .header-link2{
-    position:absolute;
-    top: 3rem;
-    right:9rem;
- 
-   }
-  .header a:hover{
-    color:black;
-  }
-  .brandName {
-    font-size: 40px;
-    display:inline-block;
-    color:black;
-    margin-right:6rem;
-    position:absolute;
-    top:2.4rem;
-    left:39.5%;
-    font-family: "Vollkorn", serif;
-  }
-  
+  background-color: white;
+}
+
+.header-link1 {
+  position: absolute;
+  top: 3rem;
+  right: 17.5rem;
+}
+.header-link2 {
+  position: absolute;
+  top: 3rem;
+  right: 9rem;
+}
+.header a:hover {
+  color: black;
+}
+.brandName {
+  font-size: 40px;
+  display: inline-block;
+  color: black;
+  margin-right: 6rem;
+  position: absolute;
+  top: 2.4rem;
+  left: 39.75%;
+  font-family: "Vollkorn", serif;
 }
 
 .footer {
@@ -250,9 +202,8 @@ a {
   position: relative;
   top: 5rem;
 }
- .icons:hover{
- color:white;
-
+.icons:hover {
+  color: white;
 }
 .icons {
   margin: 15px 35px 15px 0;
@@ -262,14 +213,12 @@ a {
   color: #8c8c8c;
 }
 
-/* CONTACT PAGE*/
+/******************** CONTACT PAGE **************************/
 .contact-content {
-  margin-top: 5rem;
+  margin-top: 7.5rem;
   color: black;
   text-align: left;
-  padding:5rem 9rem 7.5rem;
-  /* background-color: #8c8c8c; */
-  /* background-image: url("https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
+  padding: 3rem 9rem 7.5rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -277,32 +226,32 @@ a {
   margin: 3.5rem 0 0 0;
 }
 .contact-heading {
-  color:black;
-  margin-bottom:5rem;
-  font-size:4.5rem;
-  text-align:center;
+  color: black;
+  margin-bottom: 5rem;
+  font-size: 4.5rem;
+  text-align: center;
 }
-.contact-about{
-  display:inline-block;
-  width:40%;
-  font-size:25px;
-  margin-right:35%;
+.contact-about {
+  display: inline-block;
+  width: 40%;
+  font-size: 25px;
+  margin-right: 35%;
 }
-.contact-image{
-  width:15%;
-  margin-left:5rem;
-  position :relative;
-  bottom:1rem;
+.contact-image {
+  width: 15%;
+  margin-left: 5rem;
+  position: relative;
+  bottom: 1rem;
   display: inline-block;
 }
-.contact-column{
-  background-color:black;
+.contact-column {
+  background-color: black;
   padding: 2rem 3rem;
-  border-radius:1rem;
-  margin:2rem 3rem 2rem 0;
+  border-radius: 1rem;
+  margin: 2rem 3rem 2rem 0;
 }
 .contact-type {
-  color:white;
+  color: white;
   margin-bottom: 1.5rem;
 }
 .contact-detail {
@@ -310,8 +259,10 @@ a {
   margin-bottom: 0.75rem;
 }
 
+
+/**************************ACHIEVERS PAGE*********************************/
 .achievement {
-  margin-top: 6rem;
+  margin-top: 7.5rem;
   background-color: black;
 }
 .achievers-card {
@@ -326,76 +277,71 @@ a {
 }
 .achievers-heading {
   padding-top: 2rem;
-  padding-top:6rem;
+   padding-top: 3rem;
   margin-bottom: 3rem;
+  font-size: 4.5rem;
   color: white;
 }
 
 
 
-
-
-
-
-
-
-
-.course-body,.about-body{
-  padding: 10.5rem 10% 7.5rem ; 
-  width:100%;
+/****************************CONTACT AND ABOUT PAGE***********************************/
+.course-body,
+.about-body {
+  padding: 10.5rem 10% 7.5rem;
+  width: 100%;
   text-align: left;
-  /* background-color:#8c8c8c; */
 }
-.course-heading,.about-heading{
-  margin-bottom:5rem;
-  font-size:4.5rem;
-  text-align:center;
+.course-heading,
+.about-heading {
+  margin-bottom: 5rem;
+  font-size: 4.5rem;
+  text-align: center;
 }
-.course-paragraph,.about-paragraph{
+.course-paragraph,
+.about-paragraph {
   display: inline-block;
-  width:60%;
-  margin-right:10rem;
-  margin-left:1rem;
+  width: 60%;
+  margin-right: 10rem;
+  margin-left: 1rem;
 }
-.main-image,.course-main-image{
-  width:15%;
-  margin-left:5rem;
-  position :relative;
-  bottom:1rem;
+.main-image,
+.course-main-image {
+  width: 15%;
+  margin-left: 5rem;
+  position: relative;
+  bottom: 1rem;
   display: inline-block;
 }
-.course-card{
-  width:47%;
-  background-color:black;
-  color:white;
-  padding:2.5rem 3rem;
-  border-radius:1rem;
-  margin:3rem 1rem 1rem 1rem;
-  display:inline-block;
+.course-card {
+  width: 47%;
+  background-color: black;
+  color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 1rem;
+  margin: 3rem 1rem 1rem 1rem;
+  display: inline-block;
 }
 
-.card-heading{
-  margin-bottom:2rem;
+.card-heading {
+  margin-bottom: 2rem;
 }
-.card-subheading{
-  margin-bottom:2rem;
+.card-subheading {
+  margin-bottom: 2rem;
 }
-.card-about{
-  width:50%;
-  color:#8c8c8c;
+.card-about {
+  width: 50%;
+  color: #8c8c8c;
   display: inline-block;
 }
 /* .card-content{
   
 } */
-.card-image{
+.card-image {
   display: inline-block;
-  width:30%;
+  width: 30%;
   /* height:7.5rem; */
-  position:relative;
-  left:5rem;
-  bottom:3rem;
+  position: relative;
+  left: 5rem;
+  bottom: 3rem;
 }
-
-
-
