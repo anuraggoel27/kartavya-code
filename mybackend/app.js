@@ -27,19 +27,6 @@ const Query=mongoose.model("Query",querySchema);
 
 
 
-// const database={
-//     users:[
-//         {
-//             id:"1",
-//             name:"Anurag Goel",
-//             email:"anurag@gmail.com",
-//             contact:"123456789",
-//             joined:new Date()
-//         }
-//     ]
-// }
-
-
 app.post("/query",function(req,res){
     const query=req.body;
     Query.create(query,function(err,data){
