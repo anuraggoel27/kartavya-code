@@ -1,39 +1,39 @@
 const Achievers = [
   {
-    Name: "Anurag Goel",
-    imgUrl: "a.png",
-    MainsRank: "12",
-    BoardsPercent: "87%"
+    Name: "Chinmay Sarangi",
+    imgUrl: "/images/chinmay.jpg",
+    about:"Chinmay scored 375 marks in JEE MAINS 2019 and scored 101% in boards exam. "
+    
   },
   {
-    Name: "Anurag Goel",
-    imgUrl: "a.png",
-    MainsRank: "12",
-    BoardsPercent: "87%"
+    Name: "Chinmay Sarangi",
+    imgUrl: "/images/chinmay.jpg",
+    about:"Chinmay scored 375 marks in JEE MAINS 2019 and scored 101% in boards exam. "
+    
   },
   {
-    Name: "Anurag Goel",
-    imgUrl: "a.png",
-    MainsRank: "12",
-    BoardsPercent: "87%"
+    Name: "Chinmay Sarangi",
+    imgUrl: "/images/chinmay.jpg",
+    about:"Chinmay scored 375 marks in JEE MAINS 2019 and scored 101% in boards exam. "
+    
   },
   {
-    Name: "Anurag Goel",
-    imgUrl: "a.png",
-    MainsRank: "12",
-    BoardsPercent: "87%"
+    Name: "Chinmay Sarangi",
+    imgUrl: "/images/chinmay.jpg",
+    about:"Chinmay scored 375 marks in JEE MAINS 2019 and scored 101% in boards exam. "
+    
   },
   {
-    Name: "Anurag Goel",
-    imgUrl: "a.png",
-    MainsRank: "12",
-    BoardsPercent: "87%"
+    Name: "Chinmay Sarangi",
+    imgUrl: "/images/chinmay.jpg",
+    about:"Chinmay scored 375 marks in JEE MAINS 2019 and scored 101% in boards exam. "
+    
   },
   {
-    Name: "Anurag Goel",
-    imgUrl: "a.png",
-    MainsRank: "12",
-    BoardsPercent: "87%"
+    Name: "Chinmay Sarangi",
+    imgUrl: "/images/chinmay.jpg",
+    about:"Chinmay scored 375 marks in JEE MAINS 2019 and scored 101% in boards exam. "
+    
   }
 ];
 

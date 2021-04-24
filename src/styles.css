@@ -14,7 +14,7 @@ a:hover {
   background-color: black;
 }
 
-/*FACULTY CARDS*/
+/*********************************FACULTY CARDS*************************/
 .Faculty {
   padding-top: 6.25rem;
   padding-bottom: 5.75rem;
@@ -29,7 +29,7 @@ a:hover {
   font-size: 4.5rem;
 }
 
-/*CAROUSEL*/
+/******************************************CAROUSEL***********************/
 .Carousel {
   width: 45%;
   margin: 5rem 2rem 10rem 0;
@@ -47,7 +47,7 @@ a:hover {
   margin-bottom: 0px;
   background-color: white;
 }
-
+/************************QUERY FORM**************************/
 .query-form {
   width: 30%;
   padding: 4rem 2.75rem;
@@ -58,9 +58,19 @@ a:hover {
   margin-left: 2rem;
   border-radius: 10px;
 }
+.query-form button{
+ background-color:black;
+ color:white;
+}
+.query-form button:hover{
+  background-color:rgb(209, 209, 209);
+  color:black;
+ }
 
+
+ /***********************Welcome Section*************************/
 .welcome {
-  padding: 5rem 9rem;
+  padding: 4rem 9rem;
   color: white;
   text-align: left;
 }
@@ -98,13 +108,23 @@ a:hover {
   color: #8c8c8c;
 }
 
+
+/*********************************Know more about us************************/
+.blog-download{
+  padding:4rem 6rem;
+}
+.download-main-heading{
+  font-size:4.5rem;
+  color:white;
+  margin-bottom:3.5rem;
+}
 .blog,
 .download {
   background-color: white;
-  padding: 3.5rem 2%;
-  width: 40%;
+  padding:3.5rem 2%;
+  width: 35%;
   border-radius: 1rem;
-  margin: 12rem 2rem 12rem;
+  margin: 1rem 2rem 5rem;
   color: black;
   display: inline-block;
 }
@@ -125,7 +145,7 @@ a:hover {
   transition: 500ms;
   color: black;
 }
-
+/**********************************HEADER**************************************/
 .header {
   position: fixed;
   z-index: 16;
@@ -133,12 +153,15 @@ a:hover {
   height: 7.5rem;
   width: 100%;
   color: #000;
-  padding-top: 2.5rem;
-
+  padding:0 10rem;
+  /* padding-top: 2.5rem; */
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: white;
 }
 
-.header-link1 {
+/* .header-link1 {
   position: absolute;
   top: 3rem;
   right: 17.5rem;
@@ -147,21 +170,24 @@ a:hover {
   position: absolute;
   top: 3rem;
   right: 9rem;
-}
+} */
 .header a:hover {
   color: black;
 }
 .brandName {
-  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight:bold;
   display: inline-block;
   color: black;
-  margin-right: 6rem;
-  position: absolute;
-  top: 2.4rem;
-  left: 39.75%;
+  /* margin-right: 6rem; */
+  /* position: absolute; */
+  /* top: 2.4rem;*/
+  position:relative;
+  left:2rem;
+  flex-grow: 3;
   font-family: "Vollkorn", serif;
 }
-
+/*************************FOOTER**************************/
 .footer {
   font-family: "B612", sans-serif;
   height: 650px;
@@ -191,6 +217,7 @@ a {
 }
 .brand-footer {
   text-align: left;
+  /* font-family: "Vollkorn", sans-serif; */
   margin: 50px 50px 150px 0;
 }
 /*ICONS AT THE BOTTOM*/
@@ -234,7 +261,7 @@ a {
 .contact-about {
   display: inline-block;
   width: 40%;
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 35%;
 }
 .contact-image {
@@ -261,13 +288,14 @@ a {
 
 
 /**************************ACHIEVERS PAGE*********************************/
-.achievement {
+/* .achievement {
   margin-top: 7.5rem;
   background-color: black;
-}
+} */
 .achievers-card {
   display: inline-block;
-  margin: 30px 100px 30px 0px;
+  margin:2rem 3.5rem;
+  text-align:center;
 }
 
 .particles-js {
@@ -275,38 +303,46 @@ a {
   height: 100vh;
   width: 100vw;
 }
-.achievers-heading {
+/* .achievers-heading {
   padding-top: 2rem;
    padding-top: 3rem;
   margin-bottom: 3rem;
   font-size: 4.5rem;
-  color: white;
+  color: black;
+} */
+
+.achievers-card-section{
+  margin-top:3rem;
 }
-
-
+.achiever-title{
+  font-weight: bold;
+}
+.achiever-image{
+  height:20rem;
+}
 
 /****************************CONTACT AND ABOUT PAGE***********************************/
 .course-body,
-.about-body {
+.about-body,.achievement {
   padding: 10.5rem 10% 7.5rem;
   width: 100%;
   text-align: left;
 }
 .course-heading,
-.about-heading {
+.about-heading,.achievers-heading {
   margin-bottom: 5rem;
   font-size: 4.5rem;
   text-align: center;
 }
 .course-paragraph,
-.about-paragraph {
+.about-paragraph,.achievers-paragraph {
   display: inline-block;
   width: 60%;
   margin-right: 10rem;
   margin-left: 1rem;
 }
 .main-image,
-.course-main-image {
+.course-main-image,.achievers-main-image {
   width: 15%;
   margin-left: 5rem;
   position: relative;
@@ -344,4 +380,209 @@ a {
   position: relative;
   left: 5rem;
   bottom: 3rem;
+}
+
+
+
+
+
+/*************************************Optimize for smaller screens************************************************/
+@media only screen and (max-width:1310px){
+  .top {
+    margin-top: 2.5rem;
+  }
+  .Carousel{
+    width:100%;
+    height:620px;
+    border-radius:0;
+    margin-bottom: 5rem;
+  }
+  .carousel-image{
+    border-radius:0;
+    height:620px;
+  }
+  .query-form {
+    width: 80%;
+    padding: 1rem 2.75rem;
+  }
+  .query-form h3{
+    font-size:3rem;
+    text-align:center;
+  }
+  .welcome {
+    padding: 4rem ;
+    text-align: center;
+  }
+
+  .welcome-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .flaticons {
+    margin-top: 2rem;
+  }
+  .flaticon-card {
+    text-align: center;
+    display: inline-block;
+    height: 10rem;
+    width: 16.5rem;
+    margin: 0 1.5rem;
+    padding: 2rem 0 3rem;
+    border-radius: 5rem;
+  }
+  
+  .flaticon-image img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 2rem;
+  }
+  .flaticon-about {
+    margin-top: 1rem;
+    
+  }
+
+  .Faculty {
+    padding: 3rem 4rem;
+    background-color: white;
+  }
+  .faculty-card {
+    display: inline-block;
+    margin: 2rem 2rem;
+  }
+
+  .faculty-heading {
+    font-size: 3rem;
+  }
+  .blog-download{
+    padding:4rem 6rem;
+  }
+  .download-main-heading{
+    font-size:3rem;
+    margin-bottom:2rem;
+  }
+  .blog,
+  .download {
+    padding:3.5rem 5%;
+    width: 70%;
+    margin: 1rem 2rem 2rem;
+  }
+  .blog button,
+  .download button {
+    margin-top: 2rem;
+  }
+  .footer {
+    font-family: "B612", sans-serif;
+     height: 100%;
+     /* width:100%; */
+    /* margin: auto; */
+    padding: 7rem 6rem 7rem;
+    background-color: black;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: #8c8c8c;
+  }
+  .row-heading {
+    margin-bottom: 1rem;
+  }
+  .row-heading {
+    font-size: 30px;
+    padding-left: 0.75rem;
+  }
+  .row-links {
+    color: #8c8c8c;
+    margin: 0;
+  }
+  .quick-links {
+    display: inline-block;
+    text-align: left;
+  }
+  .brand-footer {
+    text-align: left;
+    /* font-family: "Vollkorn", sans-serif; */
+    margin: 50px 50px 150px 0;
+  }
+  /*ICONS AT THE BOTTOM*/
+  .icon-links {
+    margin: auto 0rem auto 0rem;
+    display: inline-block;
+    width: 300px;
+
+  }
+  .icons:hover {
+    color: white;
+  }
+  .icons {
+    margin: 15px 35px 15px 0;
+    color: #8c8c8c;
+  }
+  .copyright {
+    color: #8c8c8c;
+  }
+  /****************************CONTACT AND ABOUT PAGE***********************************/
+.course-body,
+.about-body,.achievement {
+  padding: 10rem 7.5% 7.5rem;
+  width: 100%;
+  text-align: center;
+}
+.course-heading,
+.about-heading,.achievers-heading {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.course-paragraph,
+.about-paragraph,.achievers-paragraph {
+  display: inline-block;
+  width: 50%;
+  margin:auto;
+  text-align:left;
+}
+.main-image,
+.course-main-image,.achievers-main-image {
+  width: 20%;
+  /* margin-left: 5rem; */
+  position: relative;
+  bottom: 6rem;
+  display: inline-block;
+}
+.course-card {
+  width: 80%;
+  background-color: black;
+  color: white;
+  padding: 2.5rem 4rem 0rem 0rem;
+  border-radius: 1rem;
+  margin: 3rem 1rem 1rem 1rem;
+  display: inline-block;
+}
+
+.card-heading {
+  margin-bottom: 2rem;
+}
+.card-subheading {
+  margin-bottom: 2rem;
+}
+.card-about {
+  width: 60%;
+  color: #8c8c8c;
+  display: inline-block;
+  text-align:left;
+}
+/* .card-content{
+  
+} */
+.card-image {
+  display: inline-block;
+  width: 25%;
+  /* height:7.5rem; */
+  /* position: relative;
+  left: 5rem;
+  bottom: 3rem; */
+}
+
+
+  
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import * as FaIcons from 'react-icons/fa';
+import * as RiIcons from 'react-icons/ri';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as HiIcons from 'react-icons/hi';
@@ -41,6 +42,13 @@ const sidebarData = [
     path: "/achievement",
     icon: <SiIcons.SiGooglescholar className="sidebar-icon"/>,
     cName: "nav-text"
+  },
+  {
+    title:"Courses",
+    path:"/Courses",
+    icon :<RiIcons.RiBookFill className="sidebar-icon"/>,
+    cName:"nav-text"
+    
   }
 ];
 

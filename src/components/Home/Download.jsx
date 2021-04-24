@@ -4,6 +4,7 @@ import ShopIcon from "@material-ui/icons/Shop";
 import Fab from "@material-ui/core/Fab";
 function Download(){
     return (<div className="blog-download">
+    <h1 className="download-main-heading">Know more about us</h1>
     <div className="blog">
       <h2 className="blog-heading">
         To know more about us and about our institute, download the app.
@@ -20,6 +21,7 @@ function Download(){
       </a>
     </div>
     <div className="download">
+    
       <h2 className="download-heading">
         To know more about us and about our institute, download the app.
       </h2>

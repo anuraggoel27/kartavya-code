@@ -9,7 +9,7 @@ function Footer() {
       <Container>
         <Row>
           <Col>
-            <h2 className="brand-footer">KARTAVYA ACADEMY</h2>
+            <h2 className="brand-footer">Kartavya Academy</h2>
           </Col>
         </Row>
         <Row>

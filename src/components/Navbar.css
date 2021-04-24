@@ -6,12 +6,14 @@
   }
   
   .menu-bars {
-    margin-left: 9rem;
+    /* margin-left: 9rem; */
     font-size:2rem;
     background: none;
+    position:relative;
+    bottom:1.5rem;
   }
   .menu-close{
-    margin-top:5rem;
+    margin-top:2.5rem;
     margin-left: 5rem;
     margin-bottom:2rem;
     font-size:2rem;
@@ -39,8 +41,8 @@
   
   .nav-text {
     display: flex;
-    justify-content: start;
-    align-items: center;
+
+    align-items: flex-start;
     padding: 8px 0px 8px 4rem;
     list-style: none;
     height: 60px;
@@ -74,8 +76,7 @@
     width: 10%;
     height: 80px;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    align-items: flex-start;
   }
   
   span {
