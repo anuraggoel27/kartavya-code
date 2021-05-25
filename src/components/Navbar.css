@@ -2,7 +2,7 @@
     background-color: #fff;
     padding:0px;
     height:0rem;
-
+    
   }
   
   .menu-bars {
@@ -27,6 +27,7 @@
     width: 300px;
     height: 100vh;
     display: flex;
+    z-index: 5;
     justify-content: center;
     position: fixed;
     top: 0;
@@ -41,7 +42,7 @@
   
   .nav-text {
     display: flex;
-
+    text-align: center;
     align-items: flex-start;
     padding: 8px 0px 8px 4rem;
     list-style: none;
@@ -84,4 +85,77 @@
   }
   .sidebar-icon{
     margin-left:1rem;
+  }
+
+
+
+  @media only screen and (max-width:720px){
+    .nav-menu {
+      width: 100%;
+    }
+    .menu-bars {
+      font-size:2rem;
+      background: none;
+      position:relative;
+      bottom:1.5rem;
+    }
+    .menu-close{
+      margin-top:2.5rem;
+      position:relative;
+      left:225%;
+      margin-bottom:3rem;
+      font-size:2rem;
+      background: none;
+    }
+    
+    .nav-text {
+      display: flex;
+      text-align: center;
+      align-items: flex-start;
+      padding: 8px 0px 8px 0rem;
+      margin-top:1rem;
+      margin-bottom:1rem;
+      list-style: none;
+      height: 60px;
+    }
+    
+    .nav-text a {
+      text-decoration: none;
+      color: #f5f5f5;
+      font-size: 15px;
+      width: 80%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 1rem 2rem 1rem 5rem;
+      border-radius: 4px;
+      position: relative;
+      left: 20%;
+    }
+    
+    .nav-text a:hover {
+      background-color: #8c8c8c;
+      transition:500ms;
+    }
+    
+    .nav-menu-items {
+      padding-left:0;
+      padding-right:4rem;
+      width: 100%;
+    }
+    
+    .navbar-toggle {
+      background-color: black;
+      width: 10%;
+      height: 80px;
+      display: flex;
+      align-items: flex-start;
+    }
+    
+    span {
+      margin-left: 16px;
+    }
+    .sidebar-icon{
+      margin-left:1rem;
+    }
   }

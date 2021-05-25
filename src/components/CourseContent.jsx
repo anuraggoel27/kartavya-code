@@ -47,7 +47,7 @@ function CourseContent() {
 
         <div className="course-card">
           <h2 className="card-heading course-card5">
-            JEE Mains and JEE Advanced
+            JEE Mains/Advanced
           </h2>
           <h5 className="card-subheading">Best institute for JEE preparation in the city</h5>
           <p className="card-about">

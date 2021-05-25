@@ -6,6 +6,7 @@ import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 import Fab from "@material-ui/core/Fab";
+import axios from "axios";
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: 'flex',
@@ -51,16 +52,29 @@ function QueryForm() {
 
   function onSubmit(event) {
     setOpen(true);
-    fetch("http://localhost:3001/query", {
-      method: "post",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        contact: contact,
-        course: course,
-      }),
+
+    axios.post('http://localhost:3001/query', {
+      name: name,
+      email: email,
+      contact: contact,
+      course: course
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
     });
+    // fetch("http://localhost:3001/query", {
+    //   method: "post",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify({
+    //     name: name,
+    //     email: email,
+    //     contact: contact,
+    //     course: course,
+    //   }),
+    // });
 
     console.log(name, email, contact, course);
     event.preventDefault();

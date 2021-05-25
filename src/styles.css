@@ -58,19 +58,18 @@ a:hover {
   margin-left: 2rem;
   border-radius: 10px;
 }
-.query-form button{
- background-color:black;
- color:white;
+.query-form button {
+  background-color: black;
+  color: white;
 }
-.query-form button:hover{
-  background-color:rgb(209, 209, 209);
-  color:black;
- }
+.query-form button:hover {
+  background-color: rgb(209, 209, 209);
+  color: black;
+}
 
-
- /***********************Welcome Section*************************/
+/***********************Welcome Section*************************/
 .welcome {
-  padding: 4rem 9rem;
+  padding: 4rem 10rem;
   color: white;
   text-align: left;
 }
@@ -108,20 +107,19 @@ a:hover {
   color: #8c8c8c;
 }
 
-
 /*********************************Know more about us************************/
-.blog-download{
-  padding:4rem 6rem;
+.blog-download {
+  padding: 4rem 6rem;
 }
-.download-main-heading{
-  font-size:4.5rem;
-  color:white;
-  margin-bottom:3.5rem;
+.download-main-heading {
+  font-size: 4.5rem;
+  color: white;
+  margin-bottom: 3.5rem;
 }
 .blog,
 .download {
   background-color: white;
-  padding:3.5rem 2%;
+  padding: 3.5rem 2%;
   width: 35%;
   border-radius: 1rem;
   margin: 1rem 2rem 5rem;
@@ -153,9 +151,9 @@ a:hover {
   height: 7.5rem;
   width: 100%;
   color: #000;
-  padding:0 10rem;
+  padding: 0 10rem;
   /* padding-top: 2.5rem; */
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: white;
@@ -176,23 +174,23 @@ a:hover {
 }
 .brandName {
   font-size: 2.5rem;
-  font-weight:bold;
+  font-weight: bold;
   display: inline-block;
   color: black;
   /* margin-right: 6rem; */
   /* position: absolute; */
   /* top: 2.4rem;*/
-  position:relative;
-  left:2rem;
+  position: relative;
+  left: 2rem;
   flex-grow: 3;
   font-family: "Vollkorn", serif;
 }
 /*************************FOOTER**************************/
 .footer {
   font-family: "B612", sans-serif;
-  height: 650px;
+  height:650px;
   margin: auto;
-  padding: 6rem 2rem 3rem;
+  padding: 6rem 10rem 3rem;
   background-color: black;
   color: white;
 }
@@ -205,7 +203,7 @@ a {
 }
 .row-heading {
   font-size: 30px;
-  padding-left: 0.75rem;
+  
 }
 .row-links {
   color: #8c8c8c;
@@ -214,6 +212,8 @@ a {
 .quick-links {
   display: inline-block;
   text-align: left;
+  position:absolute;
+  left:10rem;
 }
 .brand-footer {
   text-align: left;
@@ -222,12 +222,13 @@ a {
 }
 /*ICONS AT THE BOTTOM*/
 .icon-links {
-  margin: auto 0rem auto 10rem;
+  /* margin: auto 0rem auto 10rem; */
   display: inline-block;
-  text-align: right;
+  /* text-align: right; */
   width: 300px;
-  position: relative;
-  top: 5rem;
+  position: absolute;
+  bottom:10rem;
+  right:10rem;
 }
 .icons:hover {
   color: white;
@@ -240,53 +241,6 @@ a {
   color: #8c8c8c;
 }
 
-/******************** CONTACT PAGE **************************/
-.contact-content {
-  margin-top: 7.5rem;
-  color: black;
-  text-align: left;
-  padding: 3rem 9rem 7.5rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.contact-row {
-  margin: 3.5rem 0 0 0;
-}
-.contact-heading {
-  color: black;
-  margin-bottom: 5rem;
-  font-size: 4.5rem;
-  text-align: center;
-}
-.contact-about {
-  display: inline-block;
-  width: 40%;
-  font-size: 20px;
-  margin-right: 35%;
-}
-.contact-image {
-  width: 15%;
-  margin-left: 5rem;
-  position: relative;
-  bottom: 1rem;
-  display: inline-block;
-}
-.contact-column {
-  background-color: black;
-  padding: 2rem 3rem;
-  border-radius: 1rem;
-  margin: 2rem 3rem 2rem 0;
-}
-.contact-type {
-  color: white;
-  margin-bottom: 1.5rem;
-}
-.contact-detail {
-  color: #8c8c8c;
-  margin-bottom: 0.75rem;
-}
-
-
 /**************************ACHIEVERS PAGE*********************************/
 /* .achievement {
   margin-top: 7.5rem;
@@ -294,8 +248,8 @@ a {
 } */
 .achievers-card {
   display: inline-block;
-  margin:2rem 3.5rem;
-  text-align:center;
+  margin: 2rem 3.5rem;
+  text-align: center;
 }
 
 .particles-js {
@@ -311,48 +265,58 @@ a {
   color: black;
 } */
 
-.achievers-card-section{
-  margin-top:3rem;
+.achievers-card-section {
+  margin-top: 3rem;
 }
-.achiever-title{
+.achiever-title {
   font-weight: bold;
 }
-.achiever-image{
-  height:20rem;
+.achiever-image {
+  height: 20rem;
 }
 
-/****************************CONTACT AND ABOUT PAGE***********************************/
+/****************************CONTACT,achievement,course AND ABOUT PAGE***********************************/
 .course-body,
-.about-body,.achievement {
+.about-body,
+.achievement,
+.contact-body {
   padding: 10.5rem 10% 7.5rem;
   width: 100%;
   text-align: left;
 }
 .course-heading,
-.about-heading,.achievers-heading {
+.about-heading,
+.achievers-heading,
+.contact-heading {
   margin-bottom: 5rem;
   font-size: 4.5rem;
   text-align: center;
 }
 .course-paragraph,
-.about-paragraph,.achievers-paragraph {
+.about-paragraph,
+.achievers-paragraph,
+.contact-paragraph {
   display: inline-block;
   width: 60%;
   margin-right: 10rem;
   margin-left: 1rem;
 }
 .main-image,
-.course-main-image,.achievers-main-image {
+.course-main-image,
+.achievers-main-image,
+.contact-main-image {
   width: 15%;
   margin-left: 5rem;
   position: relative;
   bottom: 1rem;
   display: inline-block;
 }
-.course-card {
+.course-card,
+.contact-card {
   width: 47%;
   background-color: black;
   color: white;
+  height: 22.5rem;
   padding: 2.5rem 3rem;
   border-radius: 1rem;
   margin: 3rem 1rem 1rem 1rem;
@@ -381,36 +345,70 @@ a {
   left: 5rem;
   bottom: 3rem;
 }
+.contact-card {
+  height: 17.5rem;
+}
+.contact-card-detail {
+  display: inline-block;
+  width: 70%;
+  color: #8c8c8c;
+}
+.contact-card-image {
+  display: inline-block;
+  width: 20%;
+}
+.contact-card-image img {
+  position: relative;
+  bottom: 4rem;
+  left: 3rem;
+  width: 100%;
+}
+.card-image-3 {
+  position: relative;
+  top: 0rem;
+}
 
 
 
 
 
+/**********************Login page*******************/
+.login-body,.registration-body{
+  margin:7.5rem auto;
+  padding:2rem 9rem 7rem;
+  text-align:center;
+}
+.login-form,.registration-form{
+  width:50%;
+  padding:0rem 0;
+  margin:auto;
+}
 /*************************************Optimize for smaller screens************************************************/
-@media only screen and (max-width:1310px){
+@media only screen and (max-width: 1350px) {
   .top {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
   }
-  .Carousel{
-    width:100%;
-    height:620px;
-    border-radius:0;
+  .Carousel {
+    width: 100%;
+    height: 620px;
+    border-radius: 0;
     margin-bottom: 5rem;
+    margin-right: 0px;
   }
-  .carousel-image{
-    border-radius:0;
-    height:620px;
+  .carousel-image {
+    border-radius: 0;
+    height: 620px;
   }
   .query-form {
     width: 80%;
     padding: 1rem 2.75rem;
   }
-  .query-form h3{
-    font-size:3rem;
-    text-align:center;
+  .query-form h3 {
+    font-size: 3rem;
+    text-align: center;
   }
   .welcome {
-    padding: 4rem ;
+    padding: 4rem 5rem;
     text-align: center;
   }
 
@@ -418,7 +416,7 @@ a {
     font-size: 3rem;
     margin-bottom: 2rem;
   }
-  
+
   .flaticons {
     margin-top: 2rem;
   }
@@ -431,7 +429,7 @@ a {
     padding: 2rem 0 3rem;
     border-radius: 5rem;
   }
-  
+
   .flaticon-image img {
     height: 100px;
     width: 100px;
@@ -439,12 +437,9 @@ a {
   }
   .flaticon-about {
     margin-top: 1rem;
-    
   }
-
   .Faculty {
     padding: 3rem 4rem;
-    background-color: white;
   }
   .faculty-card {
     display: inline-block;
@@ -454,29 +449,356 @@ a {
   .faculty-heading {
     font-size: 3rem;
   }
-  .blog-download{
-    padding:4rem 6rem;
+  .blog-download {
+    padding: 4rem 6rem;
   }
-  .download-main-heading{
-    font-size:3rem;
-    margin-bottom:2rem;
+  .download-main-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
   .blog,
   .download {
-    padding:3.5rem 5%;
-    width: 70%;
+    padding: 3.5rem 5%;
+    width: 80%;
     margin: 1rem 2rem 2rem;
   }
   .blog button,
   .download button {
     margin-top: 2rem;
   }
+
+  /***********************************************FOOTER*******************************************************/
+  .footer {
+    padding: 6rem 6rem 3rem;
+  }
+  .quick-links {
+    position:absolute;
+    left:6rem;
+  }
+  /*ICONS AT THE BOTTOM*/
+  .icon-links {
+    position: absolute;
+    bottom:10rem;
+    right:4rem;
+  }
+  
+  /****************************COURSE, ACHIEVEMENT AND ABOUT PAGE***********************************/
+
+  .course-body,
+  .about-body,
+  .achievement,
+  .contact-body {
+    padding: 10.5rem 10% 5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .course-heading,
+  .about-heading,
+  .achievers-heading,
+  .contact-heading {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .course-paragraph,
+  .about-paragraph,
+  .achievers-paragraph,
+  .contact-paragraph {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    margin-right: 20%;
+    margin-left: 1rem;
+  }
+  .main-image,
+  .course-main-image,
+  .achievers-main-image,
+  .contact-main-image {
+    width: 25%;
+    margin-left: 0rem;
+    position: relative;
+    bottom: 7.5rem;
+    display: inline-block;
+  }
+  .course-card,
+  .contact-card {
+    width: 80%;
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    margin: 2rem auto 0rem;
+    display: inline-block;
+    text-align: left;
+  }
+  .card-heading {
+    margin-bottom: 2rem;
+  }
+  .card-subheading {
+    margin-bottom: 2rem;
+  }
+  .card-about {
+    width: 50%;
+  }
+  .card-image {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    left: 8rem;
+    bottom: 4rem;
+  }
+  .contact-card {
+    height: 17.5rem;
+  }
+  .contact-card-detail {
+    display: inline-block;
+    width: 70%;
+  }
+  .contact-card-image {
+    display: inline-block;
+    width: 20%;
+  }
+  .contact-card-image img {
+    position: relative;
+    bottom: 4rem;
+    left: 3rem;
+    width: 100%;
+  }
+  .card-image-3 {
+    position: relative;
+    top: 0rem;
+  }
+  .contact-main-image {
+    position: relative;
+    top: 0rem;
+  }
+  .contact-paragraph {
+    margin-bottom: 8rem;
+  }
+
+  /********************Achievers page*******************/
+  .achievers-card {
+    display: inline-block;
+    margin: 2rem 3.5rem;
+    text-align: center;
+  }
+
+  .particles-js {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
+  /* .achievers-heading {
+  padding-top: 2rem;
+   padding-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 4.5rem;
+  color: black;
+} */
+
+  .achievers-card-section {
+    margin-top: 3rem;
+  }
+  .achiever-title {
+    font-weight: bold;
+  }
+  .achiever-image {
+    height: 20rem;
+  }
+}
+
+/**********************Optimize for mobiles************************/
+@media only screen and (max-width: 720px) {
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  * {
+    font-family: "B612", sans-serif;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .content {
+    font-family: "B612", sans-serif;
+    background-color: black;
+  }
+
+  /*********************************FACULTY CARDS*************************/
+  .Faculty {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: white;
+  }
+  .faculty-card {
+    display: inline-block;
+    margin: 1.5rem 1rem;
+  }
+  .faculty-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  /******************************************CAROUSEL***********************/
+  .Carousel {
+    width: 100%;
+    margin: 7.7rem 0rem 0rem 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 0px;
+  }
+
+  .carousel-image img {
+    height: 100%;
+    border-radius: 0px;
+  }
+  .top {
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    background-color: white;
+  }
+  /************************QUERY FORM**************************/
+  .query-form {
+    width: 90%;
+    padding: 6rem 0rem 3rem;
+    margin-left: 0rem;
+    border-radius: 10px;
+  }
+  .query-form button {
+    background-color: black;
+    color: white;
+  }
+  .query-form button:hover {
+    background-color: rgb(209, 209, 209);
+    color: black;
+  }
+
+  /***********************Welcome Section*************************/
+  .welcome {
+    padding: 4rem 2rem;
+    color: white;
+    text-align: center;
+  }
+  .welcome-subheading {
+    color: #8c8c8c;
+  }
+  .welcome-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .welcome-content {
+    color: #8c8c8c;
+    text-align: center;
+  }
+  .flaticons {
+    margin-top: 1rem;
+  }
+  .flaticon-card {
+    text-align: center;
+    display: inline-block;
+    height: 10rem;
+    width: 10.5rem;
+    margin: 0 1rem;
+    background-color: black;
+    padding: 2rem 0 3rem;
+    border-radius: 5rem;
+  }
+
+  .flaticon-image img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 2rem;
+  }
+  .flaticon-about {
+    margin-top: 1rem;
+    color: #8c8c8c;
+  }
+
+  /*********************************Know more about us************************/
+  .blog-download {
+    padding: 4rem 1rem;
+  }
+  .download-main-heading {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 3.5rem;
+  }
+  .blog,
+  .download {
+    background-color: white;
+    padding: 3.5rem 2% 2rem;
+    width: 90%;
+    border-radius: 1rem;
+    margin: 1rem 1rem 2rem;
+    color: black;
+    display: inline-block;
+  }
+  .blog button,
+  .download button {
+    padding-right: 2rem;
+    margin-top: 3rem;
+    color: white;
+    background-color: black;
+  }
+
+  .button-icon {
+    margin-right: 1rem;
+  }
+  .blog button:hover,
+  .download button:hover {
+    background-color: rgb(209, 209, 209);
+    transition: 500ms;
+    color: black;
+  }
+  /**********************************HEADER**************************************/
+  .header {
+    position: fixed;
+    z-index: 16;
+    top: 0;
+    height: 7.5rem;
+    width: 100%;
+    color: #000;
+    padding: 0 2rem;
+    /* padding-top: 2.5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+  /* .header-link1 {
+    position: absolute;
+    top: 3rem;
+    right: 17.5rem;
+  }
+  .header-link2 {
+    position: absolute;
+    top: 3rem;
+    right: 9rem;
+  } */
+  .header a:hover {
+    color: black;
+  }
+  .brandName {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    width:200px;
+    /* margin-right: 6rem; */
+    /* position: absolute; */
+    /* top: 2.4rem;*/
+    position: relative;
+    left: 1rem;
+    flex-grow: 2;
+    font-family: "Vollkorn", serif;
+  }
+  /*************************FOOTER**************************/
   .footer {
     font-family: "B612", sans-serif;
-     height: 100%;
-     /* width:100%; */
-    /* margin: auto; */
-    padding: 7rem 6rem 7rem;
+    height:650px;
+    margin: auto;
+    text-align:center;
+    padding: 6rem 1rem 3rem;
     background-color: black;
     color: white;
   }
@@ -489,7 +811,7 @@ a {
   }
   .row-heading {
     font-size: 30px;
-    padding-left: 0.75rem;
+    
   }
   .row-links {
     color: #8c8c8c;
@@ -497,92 +819,168 @@ a {
   }
   .quick-links {
     display: inline-block;
-    text-align: left;
+    text-align: center;
+    position:inherit;
+    margin-bottom:4rem;
   }
   .brand-footer {
-    text-align: left;
     /* font-family: "Vollkorn", sans-serif; */
-    margin: 50px 50px 150px 0;
+    text-align:center;
+    margin: 50px 0px 80px 0;
+
   }
   /*ICONS AT THE BOTTOM*/
   .icon-links {
-    margin: auto 0rem auto 0rem;
+    /* margin: auto 0rem auto 10rem; */
     display: inline-block;
+    /* text-align: right; */
     width: 300px;
-
+    position: inherit;
+   
   }
   .icons:hover {
     color: white;
   }
   .icons {
-    margin: 15px 35px 15px 0;
+    margin: 15px 10px 15px 20px;
     color: #8c8c8c;
   }
   .copyright {
     color: #8c8c8c;
   }
-  /****************************CONTACT AND ABOUT PAGE***********************************/
-.course-body,
-.about-body,.achievement {
-  padding: 10rem 7.5% 7.5rem;
-  width: 100%;
-  text-align: center;
-}
-.course-heading,
-.about-heading,.achievers-heading {
-  margin-bottom: 5rem;
-  font-size: 3rem;
-  text-align: center;
-}
-.course-paragraph,
-.about-paragraph,.achievers-paragraph {
-  display: inline-block;
-  width: 50%;
-  margin:auto;
-  text-align:left;
-}
-.main-image,
-.course-main-image,.achievers-main-image {
-  width: 20%;
-  /* margin-left: 5rem; */
-  position: relative;
-  bottom: 6rem;
-  display: inline-block;
-}
-.course-card {
-  width: 80%;
-  background-color: black;
-  color: white;
-  padding: 2.5rem 4rem 0rem 0rem;
-  border-radius: 1rem;
-  margin: 3rem 1rem 1rem 1rem;
-  display: inline-block;
+
+  /**************************ACHIEVERS PAGE*********************************/
+  /* .achievement {
+    margin-top: 7.5rem;
+    background-color: black;
+  } */
+  .achievers-card {
+    display: inline-block;
+    margin: 2rem 3.5rem;
+    text-align: center;
+  }
+
+  .particles-js {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
+  /* .achievers-heading {
+    padding-top: 2rem;
+     padding-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 4.5rem;
+    color: black;
+  } */
+
+  .achievers-card-section {
+    margin-top: 3rem;
+  }
+  .achiever-title {
+    font-weight: bold;
+  }
+  .achiever-image {
+    height: 20rem;
+  }
+
+  /****************************CONTACT,achievement,course AND ABOUT PAGE***********************************/
+  .course-body,
+  .about-body,
+  .achievement,
+  .contact-body {
+    padding: 10.5rem 5% 7.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .course-heading,
+  .about-heading,
+  .achievers-heading,
+  .contact-heading {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .course-paragraph,
+  .about-paragraph,
+  .achievers-paragraph,
+  .contact-paragraph {
+    display: inline-block;
+    width: 80%;
+
+    text-align: center;
+    margin: 2rem auto;
+  }
+  .main-image,
+  .course-main-image,
+  .achievers-main-image,
+  .contact-main-image {
+    width: 25%;
+    margin-left: 5rem;
+    position: relative;
+    bottom:0rem;
+    right:2rem;
+    display: inline-block;
+  }
+  .course-card,
+  .contact-card {
+    width: 95%;
+    background-color: black;
+    color: white;
+    height: 19.5rem;
+    padding: 2.5rem 1rem 0rem 2rem;
+    border-radius: 1rem;
+    margin: 2rem 1rem 1rem 1rem;
+    display: inline-block;
+  }
+
+  .card-heading {
+    margin-bottom: 2rem;
+  }
+  .card-subheading {
+    margin-bottom: 2rem;
+  }
+  .card-about {
+    width: 50%;
+    font-size:12px;
+    color: #8c8c8c;
+    display: inline-block;
+  }
+  /* .card-content{
+    
+  } */
+  .card-image {
+    display: inline-block;
+    width: 20%;
+    /* height:7.5rem; */
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+  }
+  .contact-card {
+    height: 15rem;
+  }
+  .contact-card-detail {
+    display: inline-block;
+    width:70%;
+    color: #8c8c8c;
+  }
+  .contact-card-about{
+    font-size: 12px;
+  }
+  .contact-card-image {
+    display: inline-block;
+    width: 20%;
+  }
+  .contact-card-image img {
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+    width: 100%;
+  }
+  .card-image-3 {
+    position: relative;
+    top: 0rem;
+  }
 }
 
-.card-heading {
-  margin-bottom: 2rem;
-}
-.card-subheading {
-  margin-bottom: 2rem;
-}
-.card-about {
-  width: 60%;
-  color: #8c8c8c;
-  display: inline-block;
-  text-align:left;
-}
-/* .card-content{
-  
-} */
-.card-image {
-  display: inline-block;
-  width: 25%;
-  /* height:7.5rem; */
-  /* position: relative;
-  left: 5rem;
-  bottom: 3rem; */
-}
 
-
-  
-}
