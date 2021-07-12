@@ -60,10 +60,10 @@ function QueryForm() {
       course: course
     })
     .then(function (response) {
-      console.log(response);
+      // console.log(response);
     })
     .catch(function (error) {
-      console.log(error);
+      // console.log(error);
     });
     // fetch("http://localhost:3001/query", {
     //   method: "post",
@@ -75,7 +75,7 @@ function QueryForm() {
     //     course: course,
     //   }),
     // });
-
+    
     console.log(name, email, contact, course);
     event.preventDefault();
   }

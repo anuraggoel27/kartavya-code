@@ -13,7 +13,9 @@ a:hover {
   font-family: "B612", sans-serif;
   background-color: black;
 }
-
+body{
+  background-color:white;
+}
 /*********************************FACULTY CARDS*************************/
 .Faculty {
   padding-top: 6.25rem;
@@ -148,15 +150,15 @@ a:hover {
   position: fixed;
   z-index: 16;
   top: 0;
-  height: 7.5rem;
+  height: 8rem;
   width: 100%;
-  color: #000;
-  padding: 0 10rem;
+  color: white;
+  padding: 0 6rem;
   /* padding-top: 2.5rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color: black;
 }
 
 /* .header-link1 {
@@ -170,20 +172,20 @@ a:hover {
   right: 9rem;
 } */
 .header a:hover {
-  color: black;
+  color: white;
 }
 .brandName {
   font-size: 2.5rem;
   font-weight: bold;
   display: inline-block;
-  color: black;
+  color: white;
   /* margin-right: 6rem; */
   /* position: absolute; */
   /* top: 2.4rem;*/
   position: relative;
   left: 2rem;
   flex-grow: 3;
-  font-family: "Vollkorn", serif;
+  font-family: "Spectral", serif;
 }
 /*************************FOOTER**************************/
 .footer {
@@ -369,9 +371,50 @@ a {
 }
 
 
+/**********************Gallery*************************/
+.overlay {
+  position: absolute;
+  height: 0px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+}
+.gallery-card{
+  height:260px;
+  width:400px;
+  display: inline-block;
+  margin:0px auto;
+  padding:0;
+}
+.gallery-image{
+  width:400px;
+  height:260px;
+}
+.gallery-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top:40%;
+  left: 0;
+  -webkit-transform: translate(-50%,-50%); 
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
+  text-align: center;
 
-
-
+}
+.gallery-card:hover .overlay{
+  opacity: 1;
+}
+.gallery-card:hover .gallery-image{
+  opacity: 0.5;
+  transition:0.5s ease
+}
+.gallery-card-body{
+  padding:0;
+}
+.gallery-card-section{
+  margin-top:5rem;
+}
 /**********************Login page*******************/
 .login-body,.registration-body{
   margin:7.5rem auto;
@@ -382,6 +425,10 @@ a {
   width:50%;
   padding:0rem 0;
   margin:auto;
+}
+.admin-body{
+  margin-top:6.5rem;
+  padding:3rem;
 }
 /*************************************Optimize for smaller screens************************************************/
 @media only screen and (max-width: 1350px) {

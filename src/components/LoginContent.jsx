@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import {Form ,Button} from 'react-bootstrap';
+import {Redirect} from 'react-router-dom';
 import axios from "axios";
 function LoginContent() {
   const [email,setEmail] =useState("");
@@ -11,18 +12,27 @@ function LoginContent() {
     setPassword(event.target.value);
   }
   function onSubmit(event) {
-    axios.post('http://localhost:3001/login', {
-      username: email,
-      password:password
-    })
-    .then(function (response) {
-      console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+    // axios.post('http://localhost:3001/login', {
+    //   username: email,
+    //   password:password
+    // })
+    // .then(function(response){
+    //   if(response.status===200){
+    //     console.log(response.status);
+    //     return (
+    //       <Redirect
+    //         to={{
+    //           pathname: "/admin"
+    //         }}
+    //       />
+    //     );
+    //   }
+    // })
+    // .catch(function (error) {
+    //   console.log(error);
+    //   console.log("fail");
+    // });
 
-    console.log( email, password);
     event.preventDefault();
   }
 

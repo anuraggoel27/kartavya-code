@@ -1,6 +1,8 @@
 import React,{useState} from "react";
 import {Form ,Button} from 'react-bootstrap';
 import axios from "axios";
+import { Route, Redirect } from "react-router-dom";
+import { setConstantValue } from "typescript";
 function RegistrationContent() {
   const [email,setEmail] =useState("");
   const [password,setPassword]=useState("");
@@ -10,19 +12,25 @@ function RegistrationContent() {
   function onPasswordChange(event){
     setPassword(event.target.value);
   }
-  function onSubmit(event) {
-    axios.post('http://localhost:3001/signup', {
+  async function onSubmit(event) {
+    
+     axios.post('http://localhost:3001/signup', {
       username: email,
       password:password
     })
     .then(function (response) {
-      console.log(response);
+      console.log("Success");
+      // return <Redirect
+      // to={{
+      //   pathname:"http://localhost:3000/admin"
+      // }}
+    // />
+      
     })
     .catch(function (error) {
       console.log(error);
     });
 
-    console.log( email, password);
     event.preventDefault();
   }
     return <div className="registration-body">

@@ -7,7 +7,9 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const app = express();
 const mongoose = require("mongoose");
 const request = require("request");
-app.use(bodyParser.json());
+const { default: axios } = require("axios");
+
+
 app.use(cors());
 const port = 3001;
 
@@ -80,8 +82,10 @@ app.get("/admin", function (req, res) {
     res.render("admin");
   } else {
     res.redirect("/login");
+    console.log("You are not logged in!")
   }
 });
+
 app.get("/signup", function (req, res) {
   User.find(function (err, data) {
     if (err) {
@@ -101,12 +105,11 @@ app.post("/login",function(req,res){
       console.log(err);
     }else{
       passport.authenticate("local")(req,res,function(){
-        
         console.log("Successfully logged in");
-        res.redirect("http://localhost:3000/admin");
       })
     }
   })
+  res.send();
 })
 
 app.post("/signup", function (req, res) {
@@ -116,12 +119,9 @@ app.post("/signup", function (req, res) {
     function (err, user) {
       if (err) {
         console.log(err);
-        console.log("help");
-        res.redirect("http://localhost:3000/register");
-     
       } else {
         passport.authenticate("local")(req, res, function () {
-          res.redirect("http://localhost:3000/admin");
+          console.log("You are authenticated as your new account has been registered")
         });
       }
     }
