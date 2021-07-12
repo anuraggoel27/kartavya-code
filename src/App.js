@@ -20,7 +20,10 @@ export default function App() {
   
   return (
     <div className="App">
-      <Route exact path="/" component={Home} />
+      <BrowserRouter basename={window.location.pathname || ''}>
+        <Route exact path="/" component={Home} />
+      </BrowserRouter>
+      
       <Route  path="/Contact" exact component={Contact} />
       <Route exact path="/Achievement" component={Achievement} />
       <Route exact path="/TestPage" component={TestPage} />
