@@ -1,5 +1,5 @@
 {
-  "homepage": "anuraggoel27.github.com/KartavyaAcademy",
+  "homepage": "http://anuraggoel27.github.com/KartavyaAcademy",
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
@@ -13,6 +13,7 @@
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "4.11.2",
     "aos": "2.3.4",
+    "array-unique": "^0.3.2",
     "axios": "^0.21.1",
     "bootstrap": "4.6.0",
     "cors": "^2.8.5",
@@ -32,6 +33,8 @@
     "typescript": "4.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

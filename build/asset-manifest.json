@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/anuraggoel27.github.com/KartavyaAcademy/static/css/main.e06716b2.chunk.css",
+    "main.js": "/anuraggoel27.github.com/KartavyaAcademy/static/js/main.8db83e9b.chunk.js",
+    "main.js.map": "/anuraggoel27.github.com/KartavyaAcademy/static/js/main.8db83e9b.chunk.js.map",
+    "runtime-main.js": "/anuraggoel27.github.com/KartavyaAcademy/static/js/runtime-main.233cc095.js",
+    "runtime-main.js.map": "/anuraggoel27.github.com/KartavyaAcademy/static/js/runtime-main.233cc095.js.map",
+    "static/css/2.87c3cd22.chunk.css": "/anuraggoel27.github.com/KartavyaAcademy/static/css/2.87c3cd22.chunk.css",
+    "static/js/2.ecca1e2f.chunk.js": "/anuraggoel27.github.com/KartavyaAcademy/static/js/2.ecca1e2f.chunk.js",
+    "static/js/2.ecca1e2f.chunk.js.map": "/anuraggoel27.github.com/KartavyaAcademy/static/js/2.ecca1e2f.chunk.js.map",
+    "index.html": "/anuraggoel27.github.com/KartavyaAcademy/index.html",
+    "static/css/2.87c3cd22.chunk.css.map": "/anuraggoel27.github.com/KartavyaAcademy/static/css/2.87c3cd22.chunk.css.map",
+    "static/css/main.e06716b2.chunk.css.map": "/anuraggoel27.github.com/KartavyaAcademy/static/css/main.e06716b2.chunk.css.map",
+    "static/js/2.ecca1e2f.chunk.js.LICENSE.txt": "/anuraggoel27.github.com/KartavyaAcademy/static/js/2.ecca1e2f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.233cc095.js",
+    "static/css/2.87c3cd22.chunk.css",
+    "static/js/2.ecca1e2f.chunk.js",
+    "static/css/main.e06716b2.chunk.css",
+    "static/js/main.8db83e9b.chunk.js"
+  ]
+}
