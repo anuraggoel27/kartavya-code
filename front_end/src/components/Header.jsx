@@ -5,9 +5,9 @@ function Header() {
   return (
     <div className="header">
     <CustomNavbar/>
-      <a  href="/"><h1 className="brandName">Kartavya Academy</h1></a>
+      <a  href="/KartavyaAcademy/#/"><h1 className="brandName">Kartavya Academy</h1></a>
       {/* <a className="header-link1" href="/">Home</a> */}
-      <a className="header-link2" href="/Courses">Courses</a>
+      <a className="header-link2" href="/KartavyaAcademy/#/Courses">Courses</a>
     </div>
   );
 }

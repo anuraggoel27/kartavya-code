@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 function QueryCard(props) {
   return (
-    <div className="achievers-card">
+    <div className="query-card">
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Text className="achiever-text"><b>Name</b>: {props.name}</Card.Text>

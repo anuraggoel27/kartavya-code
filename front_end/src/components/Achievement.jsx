@@ -22,7 +22,7 @@ function AchievementContent() {
         </p>
         <img
           className="achievers-main-image"
-          src="/images/man.png"
+          src="/KartavyaAcademy/images/man.png"
           alt="University"
         ></img>
         <div className="achievers-card-section">

@@ -22,12 +22,12 @@ function GalleryContent() {
         </p>
         <img
           className="achievers-main-image"
-          src="/images/gallery.png"
+          src="/KartavyaAcademy/images/gallery.png"
           alt="Gallery"
         ></img>
         <div className="gallery-card-section">
-      {links.map(Link=>{
-        return <GalleryCard img={Link.imgUrl} text={Link.description} />
+      {links.map(function(Link, index){
+        return <GalleryCard key={index} img={Link.imgUrl} text={Link.description} />
       })}
       </div>
     </div>

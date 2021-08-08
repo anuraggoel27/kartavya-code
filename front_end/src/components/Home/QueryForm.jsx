@@ -53,7 +53,7 @@ function QueryForm() {
   function onSubmit(event) {
     setOpen(true);
 
-    axios.post('http://https://kartavya-academy-backend.herokuapp.com/query', {
+    axios.post('https://kartavya-academy-backend.herokuapp.com/api/query', {
       name: name,
       email: email,
       contact: contact,
@@ -132,7 +132,7 @@ function QueryForm() {
           className="query-button"
           color="inherit"
         >
-        <img src="/images/submit.png" className="button-icon"></img>
+        <img src="/KartavyaAcademy/images/submit.png" className="button-icon"></img>
           Submit
         </Fab>
         <Modal

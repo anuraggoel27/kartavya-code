@@ -9,7 +9,7 @@ function contactContent() {
           If you have any queries, complaints or suggestions, make sure to
           contact us.
         </p>
-        <img className="contact-main-image" src="/images/contact.png"></img>
+        <img className="contact-main-image" src="/KartavyaAcademy/images/contact.png"></img>
       </div>
       <div className="contact-cards">
         <div className="contact-card">
@@ -21,7 +21,7 @@ function contactContent() {
           <h5 className="contact-card-about">Anuj Sir: 1234567890</h5>
           </div>
           <div className="contact-card-image">
-            <img src="/images/phone.png"></img>
+            <img src="/KartavyaAcademy/images/phone.png"></img>
           </div>
           
         </div>
@@ -34,7 +34,7 @@ function contactContent() {
           <h5 className="contact-card-about">Anuj Sir: anuj@gmail.com</h5>
           </div>
           <div className="contact-card-image">
-            <img src="/images/mail-inbox-app.png"></img>
+            <img src="/KartavyaAcademy/images/mail-inbox-app.png"></img>
           </div>
           
         </div>
@@ -47,7 +47,7 @@ function contactContent() {
           <h5 className="contact-card-about">Gonda,271002</h5>
           </div>
           <div className="contact-card-image card-image-3">
-            <img src="/images/house.png"></img>
+            <img src="/KartavyaAcademy/images/house.png"></img>
           </div>
           
         </div>

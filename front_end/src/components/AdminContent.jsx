@@ -9,7 +9,7 @@ function AdminContent(){
         
     })
     function databaseContent(){
-        axios.get("http://localhost:3001/api/query")
+        axios.get("https://kartavya-academy-backend.herokuapp.com/api/query")
         .then((response)=>{
             const data=response.data;
             setQueries(data);
@@ -24,10 +24,11 @@ function AdminContent(){
    
     return (
         <div className="admin-body">
-            {queries.map(Query=>{
+        <h1 className="query-heading">Queries</h1>
+            {queries.map(function(Query,i){
                 const time= moment(Query.date)
                 const date= time.format("DD/MM/YYYY")
-        return <QueryCard key={Query.index} name={Query.name} email={Query.email} contact={Query.contact} course={Query.course} date={date}/>
+        return <QueryCard class="query-card" key={i} name={Query.name} email={Query.email} contact={Query.contact} course={Query.course} date={date}/>
       })}
         </div>
     )

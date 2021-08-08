@@ -15,7 +15,7 @@ function CourseContent() {
         </p>
         <img
           className="main-image"
-          src="/images/videoconference.png"
+          src="/KartavyaAcademy/images/videoconference.png"
         ></img>
       </div>
       <div className="course-cards">
@@ -29,7 +29,7 @@ function CourseContent() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <img src="/images/student.png" className="card-image"></img>
+            <img src="/KartavyaAcademy/images/student.png" className="card-image"></img>
           </div>
         </div>
 
@@ -42,7 +42,7 @@ function CourseContent() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <img src="/images/graduate.png" className="card-image"></img>
+          <img src="/KartavyaAcademy/images/graduate.png" className="card-image"></img>
         </div>
 
         <div className="course-card">
@@ -54,7 +54,7 @@ function CourseContent() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <img src="/images/competitive.png" className="card-image"></img>
+          <img src="/KartavyaAcademy/images/competitive.png" className="card-image"></img>
         </div>
         <div className="course-card">
           <h2 className="card-heading course-card5">NEET</h2>
@@ -63,7 +63,7 @@ function CourseContent() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <img src="/images/hospital.png" className="card-image"></img>
+          <img src="/KartavyaAcademy/images/hospital.png" className="card-image"></img>
         </div>
       </div>
     </div>
