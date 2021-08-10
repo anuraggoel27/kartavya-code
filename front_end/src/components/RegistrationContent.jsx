@@ -14,7 +14,7 @@ function RegistrationContent() {
   }
   function onSubmit(event) {
     
-     axios.post('http://localhost:3001/signup', {
+     axios.post('http://localhost:3001/api/register', {
       username: email,
       password: password
     })

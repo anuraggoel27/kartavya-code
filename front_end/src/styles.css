@@ -434,6 +434,23 @@ a {
   margin-top:6.5rem;
   padding:3rem;
 }
+
+.query-card{
+  display: inline-block;
+  margin: 2rem 3.5rem;
+  text-align: center;
+}
+
+.login-body,.registration-body{
+margin:8rem 0rem 3rem;
+padding:2rem 0rem 7rem;
+text-align:center;
+}
+.login-form,.registration-form{
+width:75%;
+padding:2rem 0 0rem;
+margin:auto;
+}
 /*************************************Optimize for smaller screens************************************************/
 @media only screen and (max-width: 1350px) {
   .top {
@@ -1099,7 +1116,7 @@ a {
 
 
 
-/*******************Quert Card*************/
+/*******************Query Card*************/
 .query-card{
     display: inline-block;
     margin: 1rem 0rem;

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
-import { Redirect } from "react-router-dom";
+import { Route,Redirect,useHistory } from "react-router-dom";
 import axios from "axios";
 function LoginContent() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [isloggedIn, setLoggedIn]= useState(false)
+  const history = useHistory();
+  const redirectToAdmin = () =>history.push("admin")
   function onEmailChange(event) {
     setEmail(event.target.value);
   }
@@ -12,18 +15,17 @@ function LoginContent() {
     setPassword(event.target.value);
   }
   function onSubmit(event) {
-    axios.post(
-      "http://localhost:3001/api/login",
-      {
+    axios
+      .post("http://localhost:3001/api/login", {
         username: email,
         password: password,
-      }
-    )
-    .then(function (response) {
-    })
-    .catch(function (error) {
-      console.log(error)
-    })
+      })
+      .then(function (response) {
+        redirectToAdmin()
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
 
     event.preventDefault();
   }

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/KartavyaAcademy/static/css/main.301b1660.chunk.css",
-    "main.js": "/KartavyaAcademy/static/js/main.1ced4b2c.chunk.js",
-    "main.js.map": "/KartavyaAcademy/static/js/main.1ced4b2c.chunk.js.map",
+    "main.css": "/KartavyaAcademy/static/css/main.e971787a.chunk.css",
+    "main.js": "/KartavyaAcademy/static/js/main.8a9afe99.chunk.js",
+    "main.js.map": "/KartavyaAcademy/static/js/main.8a9afe99.chunk.js.map",
     "runtime-main.js": "/KartavyaAcademy/static/js/runtime-main.cdabf3e6.js",
     "runtime-main.js.map": "/KartavyaAcademy/static/js/runtime-main.cdabf3e6.js.map",
     "static/css/2.87c3cd22.chunk.css": "/KartavyaAcademy/static/css/2.87c3cd22.chunk.css",
-    "static/js/2.dfc224fb.chunk.js": "/KartavyaAcademy/static/js/2.dfc224fb.chunk.js",
-    "static/js/2.dfc224fb.chunk.js.map": "/KartavyaAcademy/static/js/2.dfc224fb.chunk.js.map",
+    "static/js/2.f3c7a9d5.chunk.js": "/KartavyaAcademy/static/js/2.f3c7a9d5.chunk.js",
+    "static/js/2.f3c7a9d5.chunk.js.map": "/KartavyaAcademy/static/js/2.f3c7a9d5.chunk.js.map",
     "index.html": "/KartavyaAcademy/index.html",
     "static/css/2.87c3cd22.chunk.css.map": "/KartavyaAcademy/static/css/2.87c3cd22.chunk.css.map",
-    "static/css/main.301b1660.chunk.css.map": "/KartavyaAcademy/static/css/main.301b1660.chunk.css.map",
-    "static/js/2.dfc224fb.chunk.js.LICENSE.txt": "/KartavyaAcademy/static/js/2.dfc224fb.chunk.js.LICENSE.txt"
+    "static/css/main.e971787a.chunk.css.map": "/KartavyaAcademy/static/css/main.e971787a.chunk.css.map",
+    "static/js/2.f3c7a9d5.chunk.js.LICENSE.txt": "/KartavyaAcademy/static/js/2.f3c7a9d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cdabf3e6.js",
     "static/css/2.87c3cd22.chunk.css",
-    "static/js/2.dfc224fb.chunk.js",
-    "static/css/main.301b1660.chunk.css",
-    "static/js/main.1ced4b2c.chunk.js"
+    "static/js/2.f3c7a9d5.chunk.js",
+    "static/css/main.e971787a.chunk.css",
+    "static/js/main.8a9afe99.chunk.js"
   ]
 }

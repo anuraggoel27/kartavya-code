@@ -49,6 +49,13 @@ const sidebarData = [
     icon :<RiIcons.RiBookFill className="sidebar-icon"/>,
     cName:"nav-text"
     
+  },
+  {
+    title:"Admin",
+    path:"/Admin",
+    icon :<RiIcons.RiAdminFill className="sidebar-icon"/>,
+    cName:"nav-text"
+    
   }
 ];
 

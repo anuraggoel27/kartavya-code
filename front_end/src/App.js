@@ -14,6 +14,7 @@ import StudyMaterial from "./StudyMaterial";
 import AOS from "aos";
 import { Route } from "react-router-dom";
 import "aos/dist/aos.css";
+import ProtectedRoute from "./ProtectedRoute";
 
 AOS.init();
 export default function App() {
