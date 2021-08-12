@@ -1,5 +1,4 @@
 {
-  "homepage": "https://anuraggoel27.github.com/KartavyaAcademy/",
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
@@ -19,6 +18,8 @@
     "axios": "^0.21.1",
     "bootstrap": "4.6.0",
     "cors": "^2.8.5",
+    "firebase": "^8.9.1",
+    "formik": "^2.2.9",
     "particles": "0.3.1",
     "perf_hooks": "0.0.1",
     "react": "17.0.2",
@@ -29,15 +30,14 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-simple-sidenav": "2.0.0",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "yup": "^0.32.9",
+    "yup-phone": "^1.2.19"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8",
-    "gh-pages": "^3.2.3"
+    "@babel/runtime": "7.13.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

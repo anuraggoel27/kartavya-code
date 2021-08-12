@@ -3,20 +3,21 @@ import QueryCard from "./queryCard";
 import axios from "axios";
 import moment from "moment";
 // import {useHistory } from "react-router-dom";
-import {useAuth0} from "@auth0/auth0-react"
+import { useAuth0 } from "@auth0/auth0-react";
 import LoginButton from "./LoginButton";
 import LogoutButton from "./LogoutButton";
-
+import { CircularProgress } from "@material-ui/core";
 
 function AdminContent() {
   const [queries, setQueries] = useState([]);
-  const {loginWithRedirect ,logout, isAuthenticated}= useAuth0();
-  useEffect(()=>{
+  const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
+
+  useEffect(() => {
     if (isAuthenticated) {
-      databaseContent()
+      databaseContent();
     }
-  })
-  
+  });
+
   function databaseContent() {
     axios
       .get("https://kartavya-academy-backend.herokuapp.com/api/query")
@@ -28,12 +29,21 @@ function AdminContent() {
         console.log(error);
       });
   }
-
+  // if (isLoading) {
+  //   return (
+  //     <div className="admin-body">
+  //       <CircularProgress />
+  //     </div>
+  //   );
+  // }
   return (
     <div className="admin-body">
       <h1 className="query-heading">Queries</h1>
-      <LoginButton/>
-      <LogoutButton/>
+      <div className="admin-buttons">
+      <LoginButton />
+      <LogoutButton />
+      </div>
+      
       {queries.map(function (Query, i) {
         const time = moment(Query.date);
         const date = time.format("DD/MM/YYYY");

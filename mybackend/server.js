@@ -2,13 +2,13 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const mongoose = require("mongoose");
-
+const fileUpload = require("express-fileupload")
 const dotenv = require("dotenv");
 
 const routesUrl = require("./routes/routes");
 var flash = require("connect-flash");
 dotenv.config();
-
+app.use(fileUpload())
 app.use(express.json());
 app.use(
   express.urlencoded({

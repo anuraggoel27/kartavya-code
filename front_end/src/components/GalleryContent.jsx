@@ -22,7 +22,7 @@ function GalleryContent() {
         </p>
         <img
           className="achievers-main-image"
-          src="/KartavyaAcademy/images/gallery.png"
+          src="/images/gallery.png"
           alt="Gallery"
         ></img>
         <div className="gallery-card-section">

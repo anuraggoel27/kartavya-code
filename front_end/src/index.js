@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter } from "react-router-dom";
+import { HashRouter,BrowserRouter } from "react-router-dom";
 import App from "./App";
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
@@ -12,11 +12,11 @@ ReactDOM.render(
   <Auth0Provider
     domain={domain}
     clientId={clientId}
-    redirectUri="http://localhost:3000/#/admin"
+    redirectUri="https://kartavya-academy-777bf.web.app/admin"
   >
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </Auth0Provider>
   ,  rootElement
 );

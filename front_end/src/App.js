@@ -7,8 +7,6 @@ import TestPage from "./TestPage";
 import Courses from "./Courses";
 import About from "./About";
 import Admin from "./Admin";
-import Login from "./Login";
-import Register from "./Register";
 import Gallery from "./Gallery";
 import StudyMaterial from "./StudyMaterial";
 import AOS from "aos";
@@ -27,9 +25,7 @@ export default function App() {
       <Route exact path="/Courses" component={Courses} />
       <Route exact path="/About" component={About} />
       <Route exact path="/Admin" component={Admin} />
-      <Route exact path="/login" component={Login} />
       <Route exact path="/gallery" component={Gallery} />
-      <Route exact path="/register" component={Register} />
       <Route exact path="/StudyMaterial" component={StudyMaterial} />
     </div>
   );

@@ -15,7 +15,7 @@ function AboutContent() {
         </p>
         <img
           className="course-main-image"
-          src="/KartavyaAcademy/images/university.png"
+          src="/images/university.png"
           alt="University"
         ></img>
       </div>

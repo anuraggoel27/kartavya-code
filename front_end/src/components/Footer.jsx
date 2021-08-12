@@ -13,22 +13,22 @@ function Footer() {
       <div className="quick-links">
         <div className="row-heading">Quick Links</div>
         <div className="row-links">
-          <a href="/KartavyaAcademy/#/achievement" target="_blank">
+          <a href="/achievement" target="_blank">
             Achievements
           </a>
         </div>
         <div className="row-links">
-          <a href="/KartavyaAcademy/#/about" target="_blank">
+          <a href="/about" target="_blank">
             About us
           </a>
         </div>
         <div className="row-links">
-          <a href="/KartavyaAcademy/#/courses" target="_blank">
+          <a href="/courses" target="_blank">
             Courses
           </a>{" "}
         </div>
         <div className="row-links">
-          <a href="/KartavyaAcademy/#/contact" target="_blank">
+          <a href="/contact" target="_blank">
             Contact Us
           </a>
         </div>

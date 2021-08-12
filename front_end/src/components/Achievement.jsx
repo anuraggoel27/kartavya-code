@@ -22,12 +22,12 @@ function AchievementContent() {
         </p>
         <img
           className="achievers-main-image"
-          src="/KartavyaAcademy/images/man.png"
+          src="/images/man.png"
           alt="University"
         ></img>
         <div className="achievers-card-section">
-      {Achievers.map(Achiever=>{
-        return <AchieverCard name={Achiever.Name} img={Achiever.imgUrl} text={Achiever.about} />
+      {Achievers.map(function(Achiever, index){
+        return <AchieverCard key={index} name={Achiever.Name} img={Achiever.imgUrl} text={Achiever.about} />
       })}
       </div>
     </div>

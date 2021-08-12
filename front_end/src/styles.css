@@ -34,7 +34,7 @@ body{
 /******************************************CAROUSEL***********************/
 .Carousel {
   width: 45%;
-  margin: 5rem 2rem 10rem 0;
+  margin: 5rem 2rem 10rem 0rem;
   display: inline-block;
   background-color: white;
   border-radius: 10px;
@@ -52,23 +52,32 @@ body{
 /************************QUERY FORM**************************/
 .query-form {
   width: 30%;
-  padding: 4rem 2.75rem;
+  padding: 4rem 0rem;
   display: inline-block;
   text-align: left;
   position: relative;
-  bottom: 3.2rem;
-  margin-left: 2rem;
+  bottom: 2rem;
+  margin-left: 3rem;
   border-radius: 10px;
+}
+.form{
+  width:100%;
 }
 .query-form button {
   background-color: black;
   color: white;
+  margin-top:1rem;
 }
 .query-form button:hover {
   background-color: rgb(209, 209, 209);
   color: black;
 }
-
+.error{
+  color:red
+}
+.form-control{
+  width:100%;
+}
 /***********************Welcome Section*************************/
 .welcome {
   padding: 4rem 10rem;
@@ -260,7 +269,7 @@ a {
 
 .particles-js {
   position: fixed;
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
 }
 /* .achievers-heading {
@@ -441,15 +450,12 @@ a {
   text-align: center;
 }
 
-.login-body,.registration-body{
-margin:8rem 0rem 3rem;
-padding:2rem 0rem 7rem;
-text-align:center;
+.admin-buttons{
+  display:block;
 }
-.login-form,.registration-form{
-width:75%;
-padding:2rem 0 0rem;
-margin:auto;
+.admin-button button{
+  background-color:black;
+  color:white
 }
 /*************************************Optimize for smaller screens************************************************/
 @media only screen and (max-width: 1350px) {
@@ -992,7 +998,7 @@ margin:auto;
   .course-main-image,
   .achievers-main-image,
   .contact-main-image {
-    width: 25%;
+    width: 40%;
     margin-left: 5rem;
     position: relative;
     bottom:0rem;
@@ -1034,7 +1040,7 @@ margin:auto;
     /* height:7.5rem; */
     position: relative;
     left: 3rem;
-    bottom: 3rem;
+    bottom: 2rem;
   }
   .contact-card {
     height: 15rem;
