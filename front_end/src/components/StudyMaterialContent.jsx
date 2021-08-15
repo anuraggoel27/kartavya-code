@@ -1,7 +1,7 @@
 import React from "react";
-import FileUpload from "../FileUpload";
-import {  Button } from "react-bootstrap";
+import StudyTab from "./StudyTab"
 function StudyMaterialContent() {
+  
   return (
     <div className="course-body">
       <div className="course-content">
@@ -13,12 +13,9 @@ function StudyMaterialContent() {
           className="course-main-image"
           src="/images/book.png"
           alt="book"
-        ></img>
-        {/* <div className="file-upload-section">
-        <FileUpload/>
-        </div> */}
-        
+        ></img>   
       </div>
+      <StudyTab/>
     </div>
   );
 }

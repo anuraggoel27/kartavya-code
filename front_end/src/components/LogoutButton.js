@@ -7,7 +7,7 @@ const LogoutButton = () => {
     return (
         isAuthenticated && (
             <div className="admin-button">
-            <Fab className="query-button" variant="contained" onClick={()=>logout()}>
+            <Fab className="query-button" variant="extended" onClick={()=>logout()}>
             <img src="/images/logout.png" className="button-icon"></img>
             Logout
         </Fab>

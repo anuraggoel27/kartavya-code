@@ -5,11 +5,6 @@ import Achievers from "../Acheivers";
 function AchievementContent() {
   return (
     <div className="achievement">
-      {/* <Particle
-        shapeColor="#FFFFFF"
-        linkColor="#FFFFFF"
-        strokeColor="#FFFFFF"
-      /> */}
       <h1 className="achievers-heading">Our Achievers</h1>
       <p className="achievers-paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

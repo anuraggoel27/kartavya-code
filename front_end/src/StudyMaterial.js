@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import StudyMaterialContent from "./components/StudyMaterialContent"
 
 function StudyMaterial(){
+    
     return <div>
         <Header/>
         <StudyMaterialContent/>

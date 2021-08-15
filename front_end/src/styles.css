@@ -13,8 +13,8 @@ a:hover {
   font-family: "B612", sans-serif;
   background-color: black;
 }
-body{
-  background-color:white;
+body {
+  background-color: white;
 }
 /*********************************FACULTY CARDS*************************/
 .Faculty {
@@ -60,23 +60,23 @@ body{
   margin-left: 3rem;
   border-radius: 10px;
 }
-.form{
-  width:100%;
+.form {
+  width: 100%;
 }
 .query-form button {
   background-color: black;
   color: white;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 .query-form button:hover {
   background-color: rgb(209, 209, 209);
   color: black;
 }
-.error{
-  color:red
+.error {
+  color: red;
 }
-.form-control{
-  width:100%;
+.form-control {
+  width: 100%;
 }
 /***********************Welcome Section*************************/
 .welcome {
@@ -163,23 +163,11 @@ body{
   width: 100%;
   color: white;
   padding: 0 6rem;
-  /* padding-top: 2.5rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: black;
 }
-
-/* .header-link1 {
-  position: absolute;
-  top: 3rem;
-  right: 17.5rem;
-}
-.header-link2 {
-  position: absolute;
-  top: 3rem;
-  right: 9rem;
-} */
 .header a:hover {
   color: white;
 }
@@ -188,9 +176,6 @@ body{
   font-weight: bold;
   display: inline-block;
   color: white;
-  /* margin-right: 6rem; */
-  /* position: absolute; */
-  /* top: 2.4rem;*/
   position: relative;
   left: 2rem;
   flex-grow: 3;
@@ -199,15 +184,15 @@ body{
 /*************************FOOTER**************************/
 .footer {
   font-family: "B612", sans-serif;
-  height:650px;
+  height: 650px;
   margin: auto;
   padding: 6rem 10rem 3rem;
   background-color: black;
   color: white;
 }
-.freepik-mention{
-  margin:0rem 0rem 1rem;
-  font-size:0.8rem;
+.freepik-mention {
+  margin: 0rem 0rem 1rem;
+  font-size: 0.8rem;
 }
 a {
   text-decoration: none;
@@ -218,7 +203,6 @@ a {
 }
 .row-heading {
   font-size: 30px;
-  
 }
 .row-links {
   color: #8c8c8c;
@@ -227,23 +211,20 @@ a {
 .quick-links {
   display: inline-block;
   text-align: left;
-  position:absolute;
-  left:10rem;
+  position: absolute;
+  left: 10rem;
 }
 .brand-footer {
   text-align: left;
-  /* font-family: "Vollkorn", sans-serif; */
   margin: 50px 50px 150px 0;
 }
 /*ICONS AT THE BOTTOM*/
 .icon-links {
-  /* margin: auto 0rem auto 10rem; */
   display: inline-block;
-  /* text-align: right; */
   width: 300px;
   position: absolute;
-  bottom:10rem;
-  right:10rem;
+  bottom: 10rem;
+  right: 10rem;
 }
 .icons:hover {
   color: white;
@@ -257,28 +238,18 @@ a {
 }
 
 /**************************ACHIEVERS PAGE*********************************/
-/* .achievement {
-  margin-top: 7.5rem;
-  background-color: black;
-} */
 .achievers-card {
   display: inline-block;
   margin: 2rem 3.5rem;
   text-align: center;
+  z-index: -1;
 }
 
 .particles-js {
   position: fixed;
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
 }
-/* .achievers-heading {
-  padding-top: 2rem;
-   padding-top: 3rem;
-  margin-bottom: 3rem;
-  font-size: 4.5rem;
-  color: black;
-} */
 
 .achievers-card-section {
   margin-top: 3rem;
@@ -349,9 +320,6 @@ a {
   color: #8c8c8c;
   display: inline-block;
 }
-/* .card-content{
-  
-} */
 .card-image {
   display: inline-block;
   width: 30%;
@@ -383,80 +351,126 @@ a {
   top: 0rem;
 }
 
-
 /**********************Gallery*************************/
 .overlay {
   position: absolute;
   height: 0px;
   width: 400px;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-.gallery-card{
-  height:260px;
-  width:350px;
+.gallery-card {
+  height: 260px;
+  width: 350px;
   display: inline-block;
-  margin:0px 1rem;
-  padding:0;
+  margin: 0px 1rem;
+  padding: 0;
 }
-.gallery-image{
-  width:350px;
-  height:260px;
+.gallery-image {
+  width: 350px;
+  height: 260px;
 }
 .gallery-text {
   color: white;
   font-size: 20px;
   position: absolute;
-  top:40%;
+  top: 40%;
   left: 0;
-  -webkit-transform: translate(-50%,-50%); 
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(0%, 0%);
   text-align: center;
-
 }
-.gallery-card:hover .overlay{
+.gallery-card:hover .overlay {
   opacity: 1;
 }
-.gallery-card:hover .gallery-image{
+.gallery-card:hover .gallery-image {
   opacity: 0.5;
-  transition:0.5s ease
+  transition: 0.5s ease;
 }
-.gallery-card-body{
-  padding:0;
+.gallery-card-body {
+  padding: 0;
 }
-.gallery-card-section{
-  margin-top:5rem;
+.gallery-card-section {
+  margin-top: 5rem;
 }
 /**********************Login page*******************/
-.login-body,.registration-body{
-  margin:7.5rem auto;
-  padding:2rem 9rem 7rem;
-  text-align:center;
+.login-body,
+.registration-body {
+  margin: 7.5rem auto;
+  padding: 2rem 9rem 7rem;
+  text-align: center;
 }
-.login-form,.registration-form{
-  width:50%;
-  padding:0rem 0;
-  margin:auto;
-}
-.admin-body{
-  margin-top:6.5rem;
-  padding:3rem;
+.login-form,
+.registration-form {
+  width: 50%;
+  padding: 0rem 0;
+  margin: auto;
 }
 
-.query-card{
+/***************************ADMIN BODY****************************/
+.admin-body {
+  margin-top: 6.5rem;
+  padding: 3rem;
+}
+
+.query-card {
   display: inline-block;
   margin: 2rem 3.5rem;
   text-align: center;
 }
 
-.admin-buttons{
-  display:block;
+.admin-buttons {
+  display: block;
 }
-.admin-button button{
-  background-color:black;
-  color:white
+.admin-button button {
+  background-color: black;
+  color: white;
 }
+/*********************************TABS*********************************/
+.tabs {
+  width: 90%;
+  margin: 2.5rem auto;
+}
+.study-material-tab {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.name-study-material-1,.name-study-material-2 {
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
+.name-study-material-1 h6,.name-study-material-2 h6  {
+  width: 100%;
+  margin-bottom: 1.275rem;
+}
+.link-study-material {
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
+.study-link {
+  margin-bottom: 1rem;
+}
+.study-link a {
+  color: #8c8c8c;
+  margin: 0;
+}
+.study-link a:hover {
+  color: #696565;
+}
+.delete-study-material {
+  width: 20%;
+  margin: 0;
+  display: inline-block;
+}
+.delete-button {
+  margin-bottom: 0.625rem;
+}
+
 /*************************************Optimize for smaller screens************************************************/
 @media only screen and (max-width: 1350px) {
   .top {
@@ -475,7 +489,11 @@ a {
   }
   .query-form {
     width: 80%;
+
     padding: 1rem 2.75rem;
+  }
+  .query-form h1 {
+    text-align: center;
   }
   .query-form h3 {
     font-size: 3rem;
@@ -519,7 +537,10 @@ a {
     display: inline-block;
     margin: 2rem 2rem;
   }
-
+  .card-img-top{
+    width:100%;
+    height:300px;
+  }
   .faculty-heading {
     font-size: 3rem;
   }
@@ -546,16 +567,16 @@ a {
     padding: 6rem 6rem 3rem;
   }
   .quick-links {
-    position:absolute;
-    left:6rem;
+    position: absolute;
+    left: 6rem;
   }
   /*ICONS AT THE BOTTOM*/
   .icon-links {
     position: absolute;
-    bottom:10rem;
-    right:4rem;
+    bottom: 10rem;
+    right: 4rem;
   }
-  
+
   /****************************COURSE, ACHIEVEMENT AND ABOUT PAGE***********************************/
 
   .course-body,
@@ -655,19 +676,6 @@ a {
     text-align: center;
   }
 
-  .particles-js {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-  }
-  /* .achievers-heading {
-  padding-top: 2rem;
-   padding-top: 3rem;
-  margin-bottom: 3rem;
-  font-size: 4.5rem;
-  color: black;
-} */
-
   .achievers-card-section {
     margin-top: 3rem;
   }
@@ -677,34 +685,20 @@ a {
   .achiever-image {
     height: 20rem;
   }
+  .file-uploader input {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /**********************Optimize for mobiles************************/
 @media only screen and (max-width: 720px) {
-  .App {
-    font-family: sans-serif;
-    text-align: center;
-  }
-  * {
-    font-family: "B612", sans-serif;
-  }
-  a:hover {
-    text-decoration: none;
-    color: white;
-  }
-  .content {
-    font-family: "B612", sans-serif;
-    background-color: black;
-  }
-
   /*********************************FACULTY CARDS*************************/
   .Faculty {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-color: white;
   }
   .faculty-card {
-    display: inline-block;
     margin: 1.5rem -1.25rem;
   }
   .faculty-heading {
@@ -715,14 +709,14 @@ a {
   /******************************************CAROUSEL***********************/
   .Carousel {
     width: 100%;
-    height:500px;
+    height: 500px;
     margin: 7.7rem 0rem 0rem 0;
     display: inline-block;
     background-color: white;
     border-radius: 0px;
   }
-  .carousel-image{
-    height:500px;
+  .carousel-image {
+    height: 500px;
   }
 
   .carousel-image img {
@@ -741,11 +735,7 @@ a {
     margin-left: 0rem;
     border-radius: 10px;
   }
-  .query-form button {
-    background-color: black;
-    color: white;
-  }
-  .query-form h3{
+  .query-form h3 {
     font-size: 2rem;
   }
   .query-form button:hover {
@@ -793,7 +783,9 @@ a {
     margin-top: 1rem;
     color: #8c8c8c;
   }
-
+  .particles-js {
+    margin-top: 10rem;
+  }
   /*********************************Know more about us************************/
   .blog-download {
     padding: 4rem 1rem;
@@ -812,7 +804,6 @@ a {
     margin: 1rem 1rem 2rem;
     color: black;
     display: inline-block;
-    
   }
   .blog button,
   .download button {
@@ -821,7 +812,8 @@ a {
     color: white;
     background-color: black;
   }
-  .blog-heading,.download-heading{
+  .blog-heading,
+  .download-heading {
     font-size: 1.5rem;
   }
   .button-icon {
@@ -842,23 +834,12 @@ a {
     width: 100%;
     color: #000;
     padding: 0 2rem;
-    /* padding-top: 2.5rem; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;
   }
 
-  /* .header-link1 {
-    position: absolute;
-    top: 3rem;
-    right: 17.5rem;
-  }
-  .header-link2 {
-    position: absolute;
-    top: 3rem;
-    right: 9rem;
-  } */
   .header a:hover {
     color: black;
   }
@@ -867,10 +848,7 @@ a {
     font-weight: bold;
     display: inline-block;
     color: white;
-    width:200px;
-    /* margin-right: 6rem; */
-    /* position: absolute; */
-    /* top: 2.4rem;*/
+    width: 200px;
     position: relative;
     left: 0.75rem;
     flex-grow: 2;
@@ -879,9 +857,9 @@ a {
   /*************************FOOTER**************************/
   .footer {
     font-family: "B612", sans-serif;
-    height:650px;
+    height: 650px;
     margin: auto;
-    text-align:center;
+    text-align: center;
     padding: 6rem 1rem 3rem;
     background-color: black;
     color: white;
@@ -895,7 +873,6 @@ a {
   }
   .row-heading {
     font-size: 30px;
-    
   }
   .row-links {
     color: #8c8c8c;
@@ -904,14 +881,13 @@ a {
   .quick-links {
     display: inline-block;
     text-align: center;
-    position:inherit;
-    margin-bottom:4rem;
+    position: inherit;
+    margin-bottom: 4rem;
   }
   .brand-footer {
     /* font-family: "Vollkorn", sans-serif; */
-    text-align:center;
+    text-align: center;
     margin: 50px 0px 80px 0;
-
   }
   /*ICONS AT THE BOTTOM*/
   .icon-links {
@@ -920,7 +896,6 @@ a {
     /* text-align: right; */
     width: 300px;
     position: inherit;
-   
   }
   .icons:hover {
     color: white;
@@ -934,28 +909,11 @@ a {
   }
 
   /**************************ACHIEVERS PAGE*********************************/
-  /* .achievement {
-    margin-top: 7.5rem;
-    background-color: black;
-  } */
   .achievers-card {
     display: inline-block;
     margin: 2rem 3.5rem;
     text-align: center;
   }
-
-  .particles-js {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-  }
-  /* .achievers-heading {
-    padding-top: 2rem;
-     padding-top: 3rem;
-    margin-bottom: 3rem;
-    font-size: 4.5rem;
-    color: black;
-  } */
 
   .achievers-card-section {
     margin-top: 3rem;
@@ -990,7 +948,6 @@ a {
   .contact-paragraph {
     display: inline-block;
     width: 80%;
-
     text-align: center;
     margin: 2rem auto;
   }
@@ -1001,8 +958,8 @@ a {
     width: 40%;
     margin-left: 5rem;
     position: relative;
-    bottom:0rem;
-    right:2rem;
+    bottom: 0rem;
+    right: 2rem;
     display: inline-block;
   }
   .course-card,
@@ -1027,7 +984,7 @@ a {
   }
   .card-about {
     width: 50%;
-    font-size:12px;
+    font-size: 12px;
     color: #8c8c8c;
     display: inline-block;
   }
@@ -1047,10 +1004,10 @@ a {
   }
   .contact-card-detail {
     display: inline-block;
-    width:70%;
+    width: 70%;
     color: #8c8c8c;
   }
-  .contact-card-about{
+  .contact-card-about {
     font-size: 12px;
   }
   .contact-card-image {
@@ -1074,69 +1031,116 @@ a {
     text-align: center;
   }
 
-
   /**********************Gallery*************************/
   .overlay {
     position: absolute;
     height: 0px;
     width: 95%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0.5s ease;
   }
-  .gallery-card{
-  height:260px;
-  width:95%;
-  display: inline-block;
-  margin:0px 0rem;
-  padding:0;
-}
-.gallery-image{
-  width:100%;
-  height:260px;
-}
-/* .gallery-text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top:40%;
-  left: 0;
-  -webkit-transform: translate(-50%,-50%); 
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(0%, 0%);
-  text-align: center;
+  .gallery-card {
+    height: 260px;
+    width: 95%;
+    display: inline-block;
+    margin: 0px 0rem;
+    padding: 0;
+  }
+  .gallery-image {
+    width: 100%;
+    height: 260px;
+  }
 
-} */
-.gallery-card:hover .overlay{
-  opacity: 1;
-}
-.gallery-card:hover .gallery-image{
-  opacity: 0.5;
-  transition:0.5s ease
-}
-.gallery-card-body{
-  padding:0;
-}
-.gallery-card-section{
-  margin-top:5rem;
-}
+  .gallery-card:hover .overlay {
+    opacity: 1;
+  }
+  .gallery-card:hover .gallery-image {
+    opacity: 0.5;
+    transition: 0.5s ease;
+  }
+  .gallery-card-body {
+    padding: 0;
+  }
+  .gallery-card-section {
+    margin-top: 5rem;
+  }
 
-
-
-/*******************Query Card*************/
-.query-card{
+  /*******************Query Card*************/
+  .query-card {
     display: inline-block;
     margin: 1rem 0rem;
     text-align: center;
-}
+  }
 
-.login-body,.registration-body{
-  margin:8rem 0rem 3rem;
-  padding:2rem 0rem 7rem;
-  text-align:center;
-}
-.login-form,.registration-form{
-  width:75%;
-  padding:2rem 0 0rem;
-  margin:auto;
-}
+  .login-body,
+  .registration-body {
+    margin: 8rem 0rem 3rem;
+    padding: 2rem 0rem 7rem;
+    text-align: center;
+  }
+  .login-form,
+  .registration-form {
+    width: 75%;
+    padding: 2rem 0 0rem;
+    margin: auto;
+  }
+  /*******************************TABS**********************/
+  .tabs {
+    width: 100%;
+    margin: 2.5rem auto;
+  }
+  .file-uploader input {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .study-material-tab {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .name-study-material {
+    width: 40%;
+    margin: 0;
+    display: inline-block;
+    
+    
+  }
+  .names,.study-link,.link-delete-button{
+    
+    height: 80px;
+    
+  }
+  .name-study-material-1 h6 {
+    width: 100%;
+    margin: 0rem
+  }
+  .name-study-material-2 h6 {
+    width: 100%;
+    margin: -0.35rem
+  }
+  .link-study-material {
+    width: 40%;
+    margin: 0;
+    display: inline-block;
+  }
+  .study-link {
+    margin-bottom: 0rem;
+  }
+  .study-link a {
+    color: #8c8c8c;
+    margin: 0;
+  }
+  .study-link a:hover {
+    color: #696565;
+  }
+  .delete-study-material {
+    width: 20%;
+    margin: 0;
+    display: inline-block;
+  }
+  .delete-button {
+    margin-bottom: 1.125rem;
+  }
+  
 }

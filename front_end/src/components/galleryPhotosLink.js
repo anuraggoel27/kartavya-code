@@ -1,44 +1,29 @@
 const links=[
     {
-        imgUrl:"/images/GalleryPhotos/20190308115343_IMG_1315.JPG",
-        description:"A beautiful picture"
+        imgUrl:"/images/GalleryPhotos/image1.JPG",
+        description:"Children's Day Celebration 2018"
     },
     {
-        imgUrl:"/images/GalleryPhotos/20190308115454_IMG_1323.JPG",
-        description:"A beautiful picture"
+        imgUrl:"/images/GalleryPhotos/image2.JPG",
+        description:"Children's Day Celebration 2017"
     },
     {
-        imgUrl:"/images/GalleryPhotos/20190308120722_IMG_1388.JPG",
-        description:"A beautiful picture"
+        imgUrl:"/images/GalleryPhotos/image3.JPG",
+        description:"Sports Event"
     },
     {
-        imgUrl:"/images/GalleryPhotos/20190308120922_IMG_1401.JPG",
-        description:"A beautiful picture"
+        imgUrl:"/images/GalleryPhotos/image4.JPG",
+        description:"Music Event"
     },
     {
-        imgUrl:"/images/GalleryPhotos/IMG_20180826_121612.jpg",
-        description:"A beautiful picture"
+        imgUrl:"/images/GalleryPhotos/image5.JPG",
+        description:"Prize Distribution"
     },
     {
-        imgUrl:"/images/GalleryPhotos/20190308120722_IMG_1388.JPG",
-        description:"A beautiful picture"
+        imgUrl:"/images/GalleryPhotos/image6.jpg",
+        description:"Teacher's Day Celebration"
     },
-    {
-        imgUrl:"/images/GalleryPhotos/AID_3118.JPG",
-        description:"A beautiful picture"
-    },
-    {
-        imgUrl:"/images/GalleryPhotos/20190308115343_IMG_1315.JPG",
-        description:"A beautiful picture"
-    },
-    {
-        imgUrl:"/images/GalleryPhotos/20190308115343_IMG_1315.JPG",
-        description:"A beautiful picture"
-    },
-    {
-        imgUrl:"/images/GalleryPhotos/20190308115343_IMG_1315.JPG",
-        description:"A beautiful picture"
-    },
+    
 ]
 
 
