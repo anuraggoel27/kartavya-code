@@ -5,11 +5,6 @@ import links from "./galleryPhotosLink";
 function GalleryContent() {
   return (
     <div className="achievement">
-      {/* <Particle
-        shapeColor="#FFFFFF"
-        linkColor="#FFFFFF"
-        strokeColor="#FFFFFF"
-      /> */}
       <h1 className="achievers-heading">Gallery</h1>
       <p className="achievers-paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

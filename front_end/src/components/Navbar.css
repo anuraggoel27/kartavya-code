@@ -101,7 +101,7 @@ span {
     margin-top: 2.5rem;
     position: relative;
     left: 300%;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 2rem;
     background: none;
   }
@@ -120,7 +120,7 @@ span {
   .nav-text a {
     text-decoration: none;
     color: #f5f5f5;
-    font-size: 15px;
+    font-size: 14px;
     width: 90%;
     height: 100%;
     /* display: flex;
@@ -129,7 +129,7 @@ span {
     border-radius: 4px;
     position: relative;
     left: 15%;
-    margin-top: 3rem;
+    margin-top:1.5rem;
   }
 
   .nav-text a:hover {

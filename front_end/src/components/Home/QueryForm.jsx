@@ -65,7 +65,7 @@ function QueryForm() {
         onSubmit={(values) => {
           setOpen(true);
           axios
-            .post("https://kartavya-academy-backend.herokuapp.com/api/query", {
+            .post("http://localhost:3001/api/query", {
               name: values.name,
               email: values.email,
               contact: values.number,

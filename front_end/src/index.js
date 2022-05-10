@@ -12,7 +12,7 @@ ReactDOM.render(
   <Auth0Provider
     domain={domain}
     clientId={clientId}
-    redirectUri="https://kartavya-academy-777bf.web.app/admin"
+    redirectUri="http://localhost:3000/admin"
   >
     <BrowserRouter>
       <App />

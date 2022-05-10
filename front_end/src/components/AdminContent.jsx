@@ -9,8 +9,7 @@ import LogoutButton from "./LogoutButton";
 import SimpleTabs from "./Tab";
 function AdminContent() {
   const [queries, setQueries] = useState([]);
-  const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
-  const [done, setDone] = useState(undefined);
+  const {isAuthenticated, isLoading } = useAuth0();
   useEffect(() => {
     if (isAuthenticated) {
       return databaseContent();
@@ -19,7 +18,7 @@ function AdminContent() {
 
   async function databaseContent() {
     await axios
-      .get("https://kartavya-academy-backend.herokuapp.com/api/query")
+      .get("http://localhost:3001/api/query")
       .then((response) => {
         const data = response.data;
         return setQueries(data);
@@ -45,7 +44,7 @@ function AdminContent() {
           <SimpleTabs />
         </div>
       )}
-      {queries.map(function (Query, i) {
+      {queries?.map((Query, i) => {
         const time = moment(Query.date);
         const date = time.format("DD/MM/YYYY");
         return (
